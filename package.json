@@ -30,6 +30,7 @@
     "update:check": "node scripts/update-remotion.mjs --check",
     "lint": "eslint src && tsc",
     "gen-voice": "node scripts/gen-voice.mjs",
+    "gen-tags": "node scripts/gen-tags.mjs",
     "gen-images": "node scripts/gen-images.mjs",
     "gen-storyboard": "node scripts/gen-storyboard.mjs",
     "import-srt": "node scripts/import-srt.mjs",

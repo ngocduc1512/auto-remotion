@@ -61,10 +61,59 @@ if (!fs.existsSync(scriptPath)) {
   process.exit(1);
 }
 
-const text = fs.readFileSync(scriptPath, 'utf-8').trim();
-if (!text) {
+const rawText = fs.readFileSync(scriptPath, 'utf-8').trim();
+if (!rawText) {
   console.error('Script is empty.');
   process.exit(1);
+}
+
+// ── Emotion tags (ElevenLabs v3) ──
+// If AUTO_EMOTION is on, run gen-tags first (once), then prepend the tag to
+// each sentence when we send the text to ElevenLabs. Tags never appear in the
+// final SRT or words.json because we strip [tag]-shaped words after alignment.
+const AUTO_EMOTION = (process.env.AUTO_EMOTION ?? 'true').toLowerCase() !== 'false';
+const tagsFile = path.join(ROOT, 'public', `${outName}-tags.json`);
+
+async function ensureTagsFile() {
+  if (!AUTO_EMOTION) return null;
+  // Auto-tags only work with EL v3 — other models treat tags as literal text.
+  if (!/^eleven_v3/i.test(process.env.ELEVENLABS_MODEL ?? '')) return null;
+  if (fs.existsSync(tagsFile)) return tagsFile;
+  console.log(`Emotion tags missing — running gen-tags first…`);
+  const { spawnSync } = await import('node:child_process');
+  const r = spawnSync('node', ['scripts/gen-tags.mjs', scriptPathArg, outName], {
+    stdio: 'inherit', cwd: ROOT,
+  });
+  if (r.status !== 0) {
+    console.warn(`⚠ gen-tags failed — continuing with untagged text`);
+    return null;
+  }
+  return fs.existsSync(tagsFile) ? tagsFile : null;
+}
+const tagsPath = await ensureTagsFile();
+
+/**
+ * Build the text ElevenLabs will actually see. When a tags file exists we
+ * prepend each sentence's chosen tag; otherwise we send the raw script.
+ * Whitespace between sentences is normalized to single spaces so alignment
+ * boundaries are predictable.
+ */
+function applyTags(script, tagsFilePath) {
+  if (!tagsFilePath) return script;
+  try {
+    const data = JSON.parse(fs.readFileSync(tagsFilePath, 'utf-8'));
+    if (!Array.isArray(data.sentences)) return script;
+    return data.sentences
+      .map((s) => (s.tag ? `${s.tag} ${s.text}` : s.text))
+      .join(' ');
+  } catch {
+    return script;
+  }
+}
+const text = applyTags(rawText, tagsPath);
+if (tagsPath) {
+  const tagCount = (text.match(/\[[a-z]+\]/gi) || []).length;
+  console.log(`  ✓ ${tagCount} emotion tag(s) applied from ${path.relative(ROOT, tagsPath)}`);
 }
 
 // ── Config ──
@@ -161,11 +210,22 @@ function charsToWords(chars, starts, ends) {
   if (buf.length) words.push({ text: buf.join(''), start: bufStart ?? 0, end: bufEnd });
   return words;
 }
-const words = charsToWords(chars, starts, ends);
+const wordsWithTags = charsToWords(chars, starts, ends);
+
+// Strip [tag]-shaped "words" from the alignment. EL v3 doesn't speak the
+// bracket characters — they're silent delivery modifiers — but the API's
+// char alignment still includes them as regular characters. Filtering here
+// keeps captions and SRT clean of ""[dramatic]"" etc.
+const isTag = (w) => /^\[[a-z][a-z\s]*\]$/i.test(w.text.trim());
+const words = wordsWithTags.filter((w) => !isTag(w));
+const strippedCount = wordsWithTags.length - words.length;
 
 const wordsPath = path.join(publicDir, `${outName}.words.json`);
-fs.writeFileSync(wordsPath, JSON.stringify({ text, words }, null, 2));
-console.log(`  → ${path.relative(ROOT, wordsPath)} (${words.length} words)`);
+fs.writeFileSync(wordsPath, JSON.stringify({ text: rawText, words }, null, 2));
+console.log(
+  `  → ${path.relative(ROOT, wordsPath)} (${words.length} words` +
+    (strippedCount > 0 ? `, ${strippedCount} tag(s) stripped` : '') + `)`,
+);
 
 // ── SRT (sentence-level, split at . ? ! …) ──
 function toSrtTimestamp(sec) {

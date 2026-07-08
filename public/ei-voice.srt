@@ -1,83 +1,99 @@
 1
-00:00:00,000 --> 00:00:01,079
+00:00:00,200 --> 00:00:01,480
 Người thông minh nhất phòng...
 
 2
-00:00:01,079 --> 00:00:04,287
-Thường không phải người thành công nhất. Nghe vô lý đúng không?
+00:00:01,531 --> 00:00:03,120
+Thường không phải người thành công nhất.
 
 3
-00:00:04,287 --> 00:00:05,575
-Nhưng đợi đã.
+00:00:04,142 --> 00:00:05,040
+Nghe vô lý đúng không?
 
 4
-00:00:05,575 --> 00:00:09,394
-Tôi từng biết một anh chàng học đâu giỏi đó. Điểm số luôn đứng đầu.
+00:00:05,807 --> 00:00:06,320
+Nhưng đợi đã.
 
 5
-00:00:09,394 --> 00:00:11,791
-Ai cũng bảo tương lai anh xán lạn.
+00:00:06,460 --> 00:00:09,040
+Tôi từng biết một anh chàng học đâu giỏi đó.
 
 6
-00:00:11,791 --> 00:00:13,987
-Vậy mà ra đời, anh cứ mãi loay hoay.
+00:00:09,280 --> 00:00:10,560
+Điểm số luôn đứng đầu.
 
 7
-00:00:13,987 --> 00:00:17,089
-Anh giỏi việc, nhưng nói một câu là mất lòng người.
+00:00:10,773 --> 00:00:13,120
+Ai cũng bảo tương lai anh xán lạn.
 
 8
-00:00:17,089 --> 00:00:20,112
-Bị góp ý là nổi nóng. Đồng nghiệp dần tránh xa.
+00:00:13,560 --> 00:00:15,520
+Vậy mà ra đời, anh cứ mãi loay hoay.
 
 9
-00:00:20,112 --> 00:00:23,029
-Trong khi đó, một người bạn học kém hơn anh nhiều...
+00:00:15,700 --> 00:00:18,960
+Anh giỏi việc, nhưng nói một câu là mất lòng người.
 
 10
-00:00:23,029 --> 00:00:25,184
-lại thăng tiến đều đặn, ai cũng quý.
+00:00:19,280 --> 00:00:20,800
+Bị góp ý là nổi nóng.
 
 11
-00:00:25,184 --> 00:00:28,147
-Bạn có thấy mình, hoặc ai đó, trong hình ảnh này không?
+00:00:20,928 --> 00:00:22,560
+Đồng nghiệp dần tránh xa.
 
 12
-00:00:28,147 --> 00:00:32,362
-Trong Trí Tuệ Cảm Xúc, Daniel Goleman chỉ ra một điều ít ai nói:
+00:00:23,476 --> 00:00:26,159
+Trong khi đó, một người bạn học kém hơn anh nhiều...
 
 13
-00:00:32,362 --> 00:00:34,720
-Chỉ số IQ giúp bạn được tuyển vào.
+00:00:26,280 --> 00:00:28,320
+lại thăng tiến đều đặn, ai cũng quý.
 
 14
-00:00:34,720 --> 00:00:37,135
-Nhưng chính khả năng hiểu mình, hiểu người...
+00:00:28,620 --> 00:00:32,160
+Bạn có thấy mình, hoặc ai đó, trong hình ảnh này không?
 
 15
-00:00:37,135 --> 00:00:38,877
-mới quyết định bạn đi được bao xa.
+00:00:33,246 --> 00:00:39,846
+Trong Trí Tuệ Cảm Xúc, Daniel Goleman chỉ ra một điều ít ai nói: Chỉ số IQ giúp bạn được tuyển vào.
 
 16
-00:00:38,877 --> 00:00:41,649
-Vì cuộc đời không phải một bài kiểm tra làm một mình.
+00:00:39,939 --> 00:00:42,646
+Nhưng chính khả năng hiểu mình, hiểu người...
 
 17
-00:00:41,649 --> 00:00:46,235
-Nó là hàng nghìn khoảnh khắc bạn phải hiểu cảm xúc của chính mình, và của người trước mặt.
+00:00:42,686 --> 00:00:44,326
+mới quyết định bạn đi được bao xa.
 
 18
-00:00:46,235 --> 00:00:49,947
-Nên đừng chỉ mài giũa cái đầu. Hãy học cả cách lắng nghe trái tim...
+00:00:44,646 --> 00:00:47,606
+Vì cuộc đời không phải một bài kiểm tra làm một mình.
 
 19
-00:00:49,947 --> 00:00:51,717
-của mình và của người khác.
+00:00:48,232 --> 00:00:52,650
+Nó là hàng nghìn khoảnh khắc bạn phải hiểu cảm xúc của chính mình, và của người trước mặt.
 
 20
-00:00:51,717 --> 00:00:55,460
-Vì trí thông minh khiến người ta nể bạn. Nhưng trí tuệ cảm xúc...
+00:00:52,970 --> 00:00:54,730
+Nên đừng chỉ mài giũa cái đầu.
 
 21
-00:00:55,460 --> 00:00:57,276
+00:00:55,420 --> 00:00:56,970
+Hãy học cả cách lắng nghe trái tim...
+
+22
+00:00:57,270 --> 00:00:59,300
+của mình và của người khác.
+
+23
+00:00:59,460 --> 00:01:01,540
+Vì trí thông minh khiến người ta nể bạn.
+
+24
+00:01:01,673 --> 00:01:03,540
+Nhưng trí tuệ cảm xúc...
+
+25
+00:01:03,580 --> 00:01:05,460
 mới khiến người ta muốn ở lại bên bạn.
