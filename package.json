@@ -1,0 +1,43 @@
+{
+  "name": "ai-remotion-video-starter",
+  "version": "1.0.0",
+  "description": "A Remotion starter project for creating videos with AI coding agents.",
+  "repository": {},
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.486",
+    "@remotion/sfx": "4.0.486",
+    "@remotion/tailwind-v4": "4.0.486",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.486",
+    "tailwindcss": "4.0.0"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.486",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "update": "node scripts/update-remotion.mjs",
+    "update:check": "node scripts/update-remotion.mjs --check",
+    "lint": "eslint src && tsc",
+    "gen-voice": "node scripts/gen-voice.mjs",
+    "gen-images": "node scripts/gen-images.mjs",
+    "gen-storyboard": "node scripts/gen-storyboard.mjs",
+    "import-srt": "node scripts/import-srt.mjs",
+    "render:cover": "node scripts/render-with-cover.mjs",
+    "render:ei": "node scripts/render-with-cover.mjs Book-Review-EI-Narrative Book-Review-EI-Thumbnail ei",
+    "auto": "node scripts/auto.mjs"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

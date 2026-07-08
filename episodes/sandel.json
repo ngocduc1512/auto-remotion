@@ -1,0 +1,527 @@
+{
+  "id": "sandel",
+  "title": "Phải Trái Đúng Sai",
+  "durationSec": 105,
+  "fps": 30,
+  "format": "documentary",
+  "themePreset": "courtroom",
+  "documentary": {
+    "chapters": [
+      {
+        "at": 0.0,
+        "number": "MỞ ĐẦU",
+        "title": "Một câu hỏi khó",
+        "holdSec": 2.2
+      },
+      {
+        "at": 8.8,
+        "number": "PHẦN 1",
+        "title": "Câu chuyện David",
+        "holdSec": 2.5
+      },
+      {
+        "at": 27.1,
+        "number": "PHẦN 2",
+        "title": "Michael Sandel · Harvard",
+        "holdSec": 2.5
+      },
+      {
+        "at": 42.2,
+        "number": "PHẦN 3",
+        "title": "3 khuôn phán xử",
+        "holdSec": 2.5
+      },
+      {
+        "at": 63.2,
+        "number": "PHẦN 4",
+        "title": "Đối thoại 2000 năm",
+        "holdSec": 2.5
+      },
+      {
+        "at": 83.3,
+        "number": "KẾT",
+        "title": "Bạn về phía nào?",
+        "holdSec": 2.2
+      }
+    ]
+  },
+  "voice": {
+    "file": "sandel-voice.mp3",
+    "durationSec": 100.32
+  },
+  "bgm": {
+    "file": "bgm/lofi-motivational.mp3",
+    "volume": 0.08,
+    "fadeSec": 1.5
+  },
+  "book": {
+    "title": "Phải Trái Đúng Sai",
+    "author": "Michael Sandel",
+    "year": 2009,
+    "pages": 320,
+    "genre": "Triết học",
+    "rating": 4.6,
+    "cover": {
+      "base": "#2c3e50",
+      "accent": "#f5ead6",
+      "motif": "⚖"
+    }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nói về",
+    "hook": "BÁO CÔNG AN HAY IM LẶNG?",
+    "subhook": "Nếu kẻ phạm tội là anh ruột của bạn.",
+    "badge": "SÁCH HAY · 105s"
+  },
+  "ctaText": "Comment · Follow để không mất ngủ ⚖",
+  "captions": [
+    {
+      "from": 0.0,
+      "to": 3.2,
+      "text": "Nếu người thân của bạn phạm tội...",
+      "emphasis": "người thân",
+      "size": "title"
+    },
+    {
+      "from": 3.33,
+      "to": 5.2,
+      "text": "nặng đến mức có thể đi tù...",
+      "size": "heading"
+    },
+    {
+      "from": 5.34,
+      "to": 7.2,
+      "text": "bạn báo công an, hay im lặng?",
+      "emphasis": "im lặng",
+      "size": "title"
+    },
+    {
+      "from": 7.64,
+      "to": 8.75,
+      "text": "Đừng trả lời vội.",
+      "size": "heading"
+    },
+    {
+      "from": 8.96,
+      "to": 11.6,
+      "text": "Có một người đàn ông ngoài đời thật, đã phải chọn.",
+      "emphasis": "đời thật",
+      "align": "top",
+      "size": "subtitle"
+    },
+    {
+      "from": 11.88,
+      "to": 15.45,
+      "text": "David đọc báo, nhận ra điều lạnh sống lưng.",
+      "emphasis": "lạnh sống lưng",
+      "align": "top",
+      "size": "subtitle"
+    },
+    {
+      "from": 15.76,
+      "to": 18.9,
+      "text": "Kẻ đánh bom khiến nước Mỹ sợ hãi 17 năm...",
+      "emphasis": "17 năm",
+      "align": "top",
+      "size": "subtitle"
+    },
+    {
+      "from": 19.01,
+      "to": 20.2,
+      "text": "có văn phong giống hệt...",
+      "align": "top",
+      "size": "subtitle"
+    },
+    {
+      "from": 20.28,
+      "to": 21.2,
+      "text": "anh trai ruột của mình.",
+      "emphasis": "anh trai ruột",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 21.46,
+      "to": 22.5,
+      "text": "Báo cảnh sát?",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 22.68,
+      "to": 24.28,
+      "text": "Anh trai có thể lãnh án tử.",
+      "emphasis": "án tử",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 24.53,
+      "to": 25.2,
+      "text": "Im lặng?",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 25.52,
+      "to": 26.95,
+      "text": "Sẽ có thêm người chết.",
+      "emphasis": "người chết",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 27.18,
+      "to": 28.9,
+      "text": "Câu chuyện đó nằm trong cuốn sách này.",
+      "align": "bottom",
+      "size": "subtitle"
+    },
+    {
+      "from": 29.12,
+      "to": 35.7,
+      "text": "Phải Trái Đúng Sai — Michael Sandel, giáo sư Harvard.",
+      "emphasis": "Michael Sandel",
+      "align": "bottom",
+      "size": "subtitle"
+    },
+    {
+      "from": 35.97,
+      "to": 37.9,
+      "text": "Cuốn sách không dạy bạn đáp án.",
+      "emphasis": "đáp án",
+      "align": "bottom",
+      "size": "heading"
+    },
+    {
+      "from": 38.05,
+      "to": 39.7,
+      "text": "Nó làm điều khó chịu hơn nhiều...",
+      "align": "bottom",
+      "size": "heading"
+    },
+    {
+      "from": 39.86,
+      "to": 42.1,
+      "text": "bắt bạn thấy mình mâu thuẫn với chính mình.",
+      "emphasis": "mâu thuẫn",
+      "align": "bottom",
+      "size": "heading"
+    },
+    {
+      "from": 42.32,
+      "to": 45.55,
+      "text": "Sandel chỉ ra 3 cách con người phán xử.",
+      "emphasis": "3 cách",
+      "align": "top",
+      "size": "subtitle"
+    },
+    {
+      "from": 45.8,
+      "to": 47.4,
+      "text": "Một, lợi ích chung...",
+      "emphasis": "lợi ích chung",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 47.56,
+      "to": 48.98,
+      "text": "cứu nhiều người là đúng.",
+      "align": "top",
+      "size": "subtitle"
+    },
+    {
+      "from": 49.24,
+      "to": 50.6,
+      "text": "Hai, nguyên tắc...",
+      "emphasis": "nguyên tắc",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 50.75,
+      "to": 52.5,
+      "text": "luật là luật, không ngoại lệ.",
+      "align": "top",
+      "size": "subtitle"
+    },
+    {
+      "from": 52.85,
+      "to": 54.55,
+      "text": "Ba, lòng trung thành...",
+      "emphasis": "trung thành",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 54.64,
+      "to": 57.15,
+      "text": "ta nợ gia đình những gì không nợ người lạ.",
+      "emphasis": "gia đình",
+      "align": "top",
+      "size": "subtitle"
+    },
+    {
+      "from": 57.41,
+      "to": 59.05,
+      "text": "Nghe cách nào cũng có lý.",
+      "align": "bottom",
+      "size": "heading"
+    },
+    {
+      "from": 59.2,
+      "to": 61.25,
+      "text": "Nhưng đặt vào chuyện của David...",
+      "align": "bottom",
+      "size": "heading"
+    },
+    {
+      "from": 61.33,
+      "to": 63.05,
+      "text": "ba cái lý cắn nhau chí tử.",
+      "emphasis": "cắn nhau",
+      "align": "bottom",
+      "size": "heading"
+    },
+    {
+      "from": 63.32,
+      "to": 66.5,
+      "text": "2000 năm trước, Khổng Tử cũng bị hỏi câu này.",
+      "emphasis": "Khổng Tử",
+      "align": "top",
+      "size": "subtitle"
+    },
+    {
+      "from": 69.5,
+      "to": 71.45,
+      "text": "Loài người hỏi mãi một câu hỏi...",
+      "align": "top",
+      "size": "subtitle"
+    },
+    {
+      "from": 71.65,
+      "to": 73.0,
+      "text": "vì chưa ai trả lời xong.",
+      "emphasis": "chưa ai trả lời",
+      "align": "top",
+      "size": "subtitle"
+    },
+    {
+      "from": 73.23,
+      "to": 74.85,
+      "text": "David, cuối cùng...",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 74.99,
+      "to": 76.35,
+      "text": "đã báo cho FBI.",
+      "emphasis": "báo cho FBI",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 76.54,
+      "to": 77.95,
+      "text": "Với một điều kiện duy nhất.",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 79.78,
+      "to": 81.05,
+      "text": "Ông chọn cả hai...",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 81.25,
+      "to": 83.0,
+      "text": "và mất cả hai, một phần.",
+      "emphasis": "mất cả hai",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 83.44,
+      "to": 87.2,
+      "text": "Đọc sách này, bạn không giỏi phán xét hơn.",
+      "align": "top",
+      "size": "subtitle"
+    },
+    {
+      "from": 87.37,
+      "to": 89.15,
+      "text": "Nhưng bạn sẽ bớt chắc chắn...",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 89.24,
+      "to": 90.05,
+      "text": "một cách nông cạn.",
+      "emphasis": "nông cạn",
+      "align": "top",
+      "size": "heading"
+    },
+    {
+      "from": 90.44,
+      "to": 91.65,
+      "text": "Còn bạn thì sao?",
+      "size": "heading"
+    },
+    {
+      "from": 91.76,
+      "to": 92.9,
+      "text": "Comment cho tôi biết...",
+      "size": "subtitle"
+    },
+    {
+      "from": 93.06,
+      "to": 94.45,
+      "text": "bạn về phía lẽ phải...",
+      "emphasis": "lẽ phải",
+      "size": "heading"
+    },
+    {
+      "from": 94.58,
+      "to": 95.65,
+      "text": "hay phía gia đình?",
+      "emphasis": "gia đình",
+      "size": "heading"
+    }
+  ],
+  "scenes": [
+    {
+      "type": "story",
+      "from": 8.96,
+      "to": 27.0,
+      "mirrorAt": 25.18,
+      "characters": [
+        {
+          "label": "David",
+          "color": "positive",
+          "icons": [
+            "📰",
+            "😰",
+            "❓"
+          ],
+          "enterAt": 8.96,
+          "flipAt": 15.76,
+          "wilts": true,
+          "x": -180
+        },
+        {
+          "label": "Anh trai",
+          "color": "negative",
+          "icons": [
+            "💣",
+            "🕶",
+            "❌"
+          ],
+          "enterAt": 11.88,
+          "x": 180
+        }
+      ]
+    },
+    {
+      "type": "book",
+      "from": 27.18,
+      "to": 42.1
+    },
+    {
+      "type": "emotions",
+      "from": 42.32,
+      "to": 63.12,
+      "emojis": [
+        "⚖️",
+        "📜",
+        "👨‍👩‍👧",
+        "🤔",
+        "💭",
+        "⚡"
+      ]
+    },
+    {
+      "type": "quote",
+      "from": 63.32,
+      "to": 73.0,
+      "quote": "Cha ăn trộm dê, con có nên tố cáo?",
+      "attribution": "Khổng Tử · 2000 năm trước"
+    },
+    {
+      "type": "quote",
+      "from": 73.23,
+      "to": 83.0,
+      "quote": "Xin đừng tử hình anh tôi.",
+      "attribution": "David"
+    },
+    {
+      "type": "payoff",
+      "from": 83.44,
+      "to": 100.32,
+      "ctaAt": 91.76,
+      "leftCard": {
+        "label": "LẼ PHẢI",
+        "verb": "Luật",
+        "icon": "⚖",
+        "color": "primary"
+      },
+      "rightCard": {
+        "label": "GIA ĐÌNH",
+        "verb": "Tình",
+        "icon": "❤",
+        "color": "secondary"
+      }
+    }
+  ],
+  "sfx": [
+    {
+      "at": 0.0,
+      "sound": "pageTurn",
+      "volume": 0.25
+    },
+    {
+      "at": 7.64,
+      "sound": "ding",
+      "volume": 0.22
+    },
+    {
+      "at": 8.96,
+      "sound": "whoosh",
+      "volume": 0.25
+    },
+    {
+      "at": 15.76,
+      "sound": "uiSwitch",
+      "volume": 0.25
+    },
+    {
+      "at": 27.18,
+      "sound": "pageTurn",
+      "volume": 0.3
+    },
+    {
+      "at": 42.32,
+      "sound": "uiSwitch",
+      "volume": 0.22
+    },
+    {
+      "at": 63.32,
+      "sound": "whoosh",
+      "volume": 0.25
+    },
+    {
+      "at": 83.44,
+      "sound": "ding",
+      "volume": 0.25
+    },
+    {
+      "at": 91.76,
+      "sound": "pageTurn",
+      "volume": 0.3
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ei-hook",
+  "title": "EI · Hook Reel",
+  "durationSec": 22,
+  "fps": 30,
+  "format": "hook-reel",
+  "themePreset": "neon",
+  "voice": {
+    "file": "ei-voice.m4a",
+    "durationSec": 22
+  },
+  "bgm": {
+    "file": "bgm/lofi-motivational.mp3",
+    "volume": 0.11,
+    "fadeSec": 0.5
+  },
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": {
+      "base": "#3d5a80",
+      "accent": "#f5ead6",
+      "motif": "❤"
+    }
+  },
+  "thumbnail": {
+    "eyebrow": "Trailer",
+    "hook": "IQ TUYỂN VÀO — EQ ĐƯA ĐI XA",
+    "subhook": "20 giây tóm tắt Trí Tuệ Cảm Xúc.",
+    "badge": "HOOK · 22s"
+  },
+  "captions": [],
+  "scenes": [],
+  "hookReel": {
+    "endCta": "Xem đầy đủ →",
+    "slides": [
+      {
+        "from": 0.0,
+        "to": 4.3,
+        "text": "NGƯỜI THÔNG MINH NHẤT PHÒNG",
+        "kicker": "…thường không phải người thành công nhất."
+      },
+      {
+        "from": 4.4,
+        "to": 8.8,
+        "text": "GIỎI VIỆC",
+        "kicker": "nhưng mất lòng đồng nghiệp.",
+        "emphasis": "MẤT LÒNG"
+      },
+      {
+        "from": 8.9,
+        "to": 13.3,
+        "text": "HỌC KÉM HƠN",
+        "kicker": "lại thăng tiến đều đặn.",
+        "emphasis": "THĂNG TIẾN"
+      },
+      {
+        "from": 13.4,
+        "to": 17.8,
+        "text": "IQ tuyển vào.",
+        "kicker": "EQ quyết định bạn đi được bao xa.",
+        "emphasis": "EQ"
+      },
+      {
+        "from": 17.9,
+        "to": 21.5,
+        "text": "MUỐN Ở LẠI",
+        "kicker": "chứ không chỉ nể trọng.",
+        "emphasis": "Ở LẠI"
+      }
+    ]
+  }
+}

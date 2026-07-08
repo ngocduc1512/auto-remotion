@@ -1,0 +1,162 @@
+{
+  "id": "ei",
+  "title": "Trí Tuệ Cảm Xúc",
+  "durationSec": 62,
+  "fps": 30,
+  "themePreset": "library",
+  "voice": {
+    "file": "ei-voice.m4a",
+    "durationSec": 57.30
+  },
+  "bgm": {
+    "file": "bgm/lofi-motivational.mp3",
+    "volume": 0.09,
+    "fadeSec": 1.5
+  },
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#3d5a80", "accent": "#f5ead6", "motif": "❤" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nói về",
+    "hook": "NGƯỜI THÔNG MINH NHẤT PHÒNG",
+    "subhook": "…thường không phải người thành công nhất.",
+    "badge": "SÁCH HAY · 60s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+  "styleBible": {
+    "protagonist": "the same young Vietnamese man in his late 20s, short dark hair, thoughtful expression, wearing a plain button-down shirt in earth tones",
+    "style": "warm editorial illustration, muted amber and teal palette, painterly brushwork, soft grain, cinematic side-lighting, cozy interior tones, 9:16 vertical composition",
+    "avoid": "no text or letters, no logos, no 3D render, no photorealism, no cartoon style, no anime style"
+  },
+
+  "captions": [
+    { "from": 0.00, "to": 1.02, "text": "Người thông minh nhất phòng...", "size": "title" },
+    { "from": 1.08, "to": 3.10, "text": "Thường không phải người thành công nhất.", "emphasis": "thành công nhất", "size": "title" },
+    { "from": 3.20, "to": 4.19, "text": "Nghe vô lý đúng không?", "size": "heading" },
+    { "from": 4.29, "to": 5.48, "text": "Nhưng đợi đã.", "size": "heading" },
+
+    { "from": 5.58, "to": 7.50, "text": "Tôi từng biết một anh chàng học đâu giỏi đó.", "align": "top", "size": "subtitle" },
+    { "from": 7.60, "to": 9.29, "text": "Điểm số luôn đứng đầu.", "emphasis": "đứng đầu", "align": "top", "size": "subtitle" },
+    { "from": 9.39, "to": 11.69, "text": "Ai cũng bảo tương lai anh xán lạn.", "emphasis": "xán lạn", "align": "top", "size": "subtitle" },
+    { "from": 11.79, "to": 13.83, "text": "Vậy mà ra đời, anh cứ mãi loay hoay.", "emphasis": "loay hoay", "align": "top", "size": "subtitle" },
+    { "from": 13.99, "to": 16.94, "text": "Anh giỏi việc, nhưng nói một câu là mất lòng người.", "align": "top", "size": "subtitle" },
+    { "from": 17.09, "to": 19.98, "text": "Bị góp ý là nổi nóng. Đồng nghiệp dần tránh xa.", "emphasis": "tránh xa", "align": "top", "size": "subtitle" },
+
+    { "from": 20.11, "to": 22.87, "text": "Trong khi đó, một người bạn học kém hơn anh nhiều...", "align": "top", "size": "subtitle" },
+    { "from": 23.03, "to": 25.04, "text": "lại thăng tiến đều đặn, ai cũng quý.", "emphasis": "ai cũng quý", "align": "top", "size": "subtitle" },
+
+    { "from": 25.18, "to": 27.45, "text": "Bạn có thấy mình, hoặc ai đó, trong hình ảnh này không?", "size": "heading" },
+
+    { "from": 28.15, "to": 32.26, "text": "Daniel Goleman chỉ ra một điều ít ai nói:", "align": "top", "size": "subtitle" },
+    { "from": 32.36, "to": 34.55, "text": "Chỉ số IQ giúp bạn được tuyển vào.", "emphasis": "IQ", "align": "top", "size": "heading" },
+    { "from": 34.72, "to": 36.96, "text": "Nhưng khả năng hiểu mình, hiểu người...", "align": "top", "size": "heading" },
+    { "from": 37.14, "to": 38.71, "text": "mới quyết định bạn đi được bao xa.", "emphasis": "đi được bao xa", "align": "top", "size": "heading" },
+
+    { "from": 38.88, "to": 41.47, "text": "Cuộc đời không phải một bài kiểm tra làm một mình.", "emphasis": "một mình", "align": "top", "size": "subtitle" },
+    { "from": 41.65, "to": 43.83, "text": "Nó là hàng nghìn khoảnh khắc bạn phải hiểu cảm xúc của mình...", "align": "top", "size": "subtitle" },
+    { "from": 44.00, "to": 46.08, "text": "và của người trước mặt.", "emphasis": "người trước mặt", "align": "top", "size": "subtitle" },
+
+    { "from": 46.24, "to": 48.03, "text": "Nên đừng chỉ mài giũa cái đầu.", "emphasis": "cái đầu", "align": "bottom", "size": "heading" },
+    { "from": 48.20, "to": 49.78, "text": "Hãy học cả cách lắng nghe trái tim...", "emphasis": "trái tim", "align": "bottom", "size": "heading" },
+    { "from": 49.95, "to": 51.55, "text": "của mình và của người khác.", "align": "bottom", "size": "heading" },
+
+    { "from": 51.72, "to": 53.50, "text": "Trí thông minh khiến người ta nể bạn.", "emphasis": "nể bạn", "align": "top", "size": "heading" },
+    { "from": 53.60, "to": 55.36, "text": "Nhưng trí tuệ cảm xúc...", "align": "top", "size": "heading" },
+    { "from": 55.46, "to": 57.28, "text": "mới khiến người ta muốn ở lại bên bạn.", "emphasis": "ở lại bên bạn", "align": "top", "size": "heading" }
+  ],
+
+  "scenes": [
+    {
+      "type": "imageScene",
+      "from": 0.00,
+      "to": 5.58,
+      "autoPrompt": true,
+      "kenBurns": "zoomIn",
+      "overlay": "dark",
+      "seed": 5
+    },
+    {
+      "type": "imageScene",
+      "from": 5.58,
+      "to": 11.79,
+      "autoPrompt": true,
+      "kenBurns": "zoomIn",
+      "overlay": "dark",
+      "seed": 10
+    },
+    {
+      "type": "imageScene",
+      "from": 11.79,
+      "to": 20.11,
+      "autoPrompt": true,
+      "kenBurns": "zoomOut",
+      "overlay": "dark",
+      "seed": 20
+    },
+    {
+      "type": "imageScene",
+      "from": 20.11,
+      "to": 27.60,
+      "autoPrompt": true,
+      "kenBurns": "panLeft",
+      "overlay": "dark",
+      "seed": 30
+    },
+    { "type": "book", "from": 27.60, "to": 38.88 },
+    {
+      "type": "imageScene",
+      "from": 38.88,
+      "to": 46.24,
+      "autoPrompt": true,
+      "kenBurns": "zoomIn",
+      "overlay": "dark",
+      "seed": 42
+    },
+    {
+      "type": "imageScene",
+      "from": 46.24,
+      "to": 51.72,
+      "autoPrompt": true,
+      "kenBurns": "panRight",
+      "overlay": "dark",
+      "seed": 50
+    },
+    {
+      "type": "imageScene",
+      "from": 51.72,
+      "to": 62.00,
+      "autoPrompt": true,
+      "kenBurns": "zoomIn",
+      "overlay": "dark",
+      "seed": 60
+    },
+    {
+      "type": "payoff",
+      "from": 51.72,
+      "to": 62.00,
+      "ctaAt": 57.28,
+      "leftCard":  { "label": "TRÍ THÔNG MINH",  "verb": "Nể",     "icon": "🧠", "color": "textMuted" },
+      "rightCard": { "label": "TRÍ TUỆ CẢM XÚC", "verb": "Ở lại",  "icon": "❤",  "color": "primary"   }
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.25 },
+    { "at": 4.29,  "sound": "ding",     "volume": 0.22 },
+    { "at": 5.58,  "sound": "whoosh",   "volume": 0.25 },
+    { "at": 11.79, "sound": "uiSwitch", "volume": 0.25 },
+    { "at": 20.11, "sound": "whoosh",   "volume": 0.25 },
+    { "at": 27.60, "sound": "pageTurn", "volume": 0.30 },
+    { "at": 32.36, "sound": "ding",     "volume": 0.22 },
+    { "at": 38.88, "sound": "uiSwitch", "volume": 0.22 },
+    { "at": 46.24, "sound": "whoosh",   "volume": 0.25 },
+    { "at": 51.72, "sound": "ding",     "volume": 0.25 },
+    { "at": 57.28, "sound": "pageTurn", "volume": 0.30 }
+  ]
+}

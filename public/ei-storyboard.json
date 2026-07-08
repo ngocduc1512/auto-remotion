@@ -1,0 +1,44 @@
+{
+  "episodeId": "ei",
+  "generatedAt": "2026-07-08T07:48:23.027Z",
+  "protagonistNote": "the same young Vietnamese man in his late 20s, short dark hair, thoughtful expression, wearing a plain button‑down shirt in earth tones",
+  "settingNote": "a cozy, softly lit university library study room with floor‑to‑ceiling bookshelves, a small desk, a laptop, and a tea cup",
+  "arc": "initial curiosity about intelligence, rising tension over social isolation, climax of emotional insight, resolution with empathetic connection",
+  "scenes": [
+    {
+      "sceneIndex": 0,
+      "prompt": "A quiet university library corner, a young Vietnamese man in his late 20s with short dark hair and a contemplative expression, sits at a wooden desk, a laptop open to a file, soft amber light from a desk lamp, muted teal shadows curling around the shelves",
+      "reasoning": "establishes the smart protagonist in an academic setting, setting the tone of quiet introspection"
+    },
+    {
+      "sceneIndex": 1,
+      "prompt": "The same young man, eyes focused on a report card, surrounded by scattered textbooks, a steaming cup of coffee beside him, his expression shifting from proud to uneasy as classmates glance over his shoulder with admiration",
+      "reasoning": "shows his academic excellence and others’ expectations, hinting at future tension"
+    },
+    {
+      "sceneIndex": 2,
+      "prompt": "The protagonist, now in a bustling campus corridor, elbows bumping into a passing student, his face flushing, colleagues turning away with sympathetic glances, a faint ripple of conversations echoing, while he holds his phone in one hand, searching for an apology",
+      "reasoning": "captures his social isolation and the emotional cost of high IQ in a realistic setting"
+    },
+    {
+      "sceneIndex": 3,
+      "prompt": "A nearby study table where another young Vietnamese man, less polished but smiling, exchanges friendly banter with classmates, their hands gesturing warmly, the same library background, sunlight filtering through a window, a subtle glow on the newcomer’s face",
+      "reasoning": "provides contrast to the first protagonist, illustrating the value of emotional intelligence"
+    },
+    {
+      "sceneIndex": 5,
+      "prompt": "The protagonist sitting alone on a bench outside the library, looking at a small notebook titled \"Emotions\" as rain lightly taps the window, his reflection in the glass shows a contemplative face, a faint tea steam swirling around his hands",
+      "reasoning": "visualizes the introspective moment of realizing life requires emotional insight, not just intellect"
+    },
+    {
+      "sceneIndex": 6,
+      "prompt": "The same young man in a quiet courtyard, eyes closed, listening to birds, his hand gently resting on a wooden bench, the warm amber light of sunset painting his silhouette, a subtle smile forming as he opens his notebook again",
+      "reasoning": "depicts the shift from isolation to active listening and personal growth"
+    },
+    {
+      "sceneIndex": 7,
+      "prompt": "The protagonist now standing beside a friendly group of classmates, laughter in the air, his arms open to embrace them, the library walls behind them illuminated with a gentle teal glow, his face radiant with genuine connection",
+      "reasoning": "conveys the climax where emotional intelligence brings lasting relationships, resolving the arc"
+    }
+  ]
+}
