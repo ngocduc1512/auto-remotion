@@ -68,16 +68,28 @@ if (!rawText) {
 }
 
 // ── Emotion tags (ElevenLabs v3) ──
-// If AUTO_EMOTION is on, run gen-tags first (once), then prepend the tag to
-// each sentence when we send the text to ElevenLabs. Tags never appear in the
-// final SRT or words.json because we strip [tag]-shaped words after alignment.
+// Three modes, in order of precedence:
+//   1) MANUAL — script already contains 2+ `[tag]` markers. Preserved as-is.
+//   2) AUTO   — no manual tags + AUTO_EMOTION=true + eleven_v3 model. Run
+//               gen-tags director once, apply its per-sentence tags.
+//   3) NEUTRAL — no manual tags, auto disabled or model doesn't support tags.
+// Whichever path is taken, [tag]-shaped words are stripped from the returned
+// alignment so SRT + words.json stay caption-clean.
 const AUTO_EMOTION = (process.env.AUTO_EMOTION ?? 'true').toLowerCase() !== 'false';
 const tagsFile = path.join(ROOT, 'public', `${outName}-tags.json`);
+const supportsTags = /^eleven_v3/i.test(process.env.ELEVENLABS_MODEL ?? '');
+
+// Detect manual tags in the raw script — 2+ occurrences is a strong signal
+// the writer deliberately marked delivery, so we don't want auto-tags to
+// clobber their choices. Also permits richer descriptive tags (`[gently]`,
+// `[thoughtful]`) beyond gen-tags's restricted allow-list.
+const manualTags = (rawText.match(/\[[a-z][a-z\s]*\]/gi) || []);
+const MANUAL_MODE = manualTags.length >= 2;
 
 async function ensureTagsFile() {
+  if (MANUAL_MODE) return null; // preserve writer's own tags
   if (!AUTO_EMOTION) return null;
-  // Auto-tags only work with EL v3 — other models treat tags as literal text.
-  if (!/^eleven_v3/i.test(process.env.ELEVENLABS_MODEL ?? '')) return null;
+  if (!supportsTags) return null;
   if (fs.existsSync(tagsFile)) return tagsFile;
   console.log(`Emotion tags missing — running gen-tags first…`);
   const { spawnSync } = await import('node:child_process');
@@ -93,12 +105,13 @@ async function ensureTagsFile() {
 const tagsPath = await ensureTagsFile();
 
 /**
- * Build the text ElevenLabs will actually see. When a tags file exists we
- * prepend each sentence's chosen tag; otherwise we send the raw script.
- * Whitespace between sentences is normalized to single spaces so alignment
- * boundaries are predictable.
+ * Build the text ElevenLabs will actually see.
+ * - MANUAL_MODE: send rawText verbatim (tags already inline).
+ * - Tags file exists: rebuild from JSON, one tag per sentence.
+ * - Otherwise: send rawText.
  */
 function applyTags(script, tagsFilePath) {
+  if (MANUAL_MODE) return script;
   if (!tagsFilePath) return script;
   try {
     const data = JSON.parse(fs.readFileSync(tagsFilePath, 'utf-8'));
@@ -111,9 +124,11 @@ function applyTags(script, tagsFilePath) {
   }
 }
 const text = applyTags(rawText, tagsPath);
-if (tagsPath) {
+if (MANUAL_MODE) {
+  console.log(`  ✓ ${manualTags.length} manual emotion tag(s) preserved from script`);
+} else if (tagsPath) {
   const tagCount = (text.match(/\[[a-z]+\]/gi) || []).length;
-  console.log(`  ✓ ${tagCount} emotion tag(s) applied from ${path.relative(ROOT, tagsPath)}`);
+  console.log(`  ✓ ${tagCount} auto emotion tag(s) applied from ${path.relative(ROOT, tagsPath)}`);
 }
 
 // ── Config ──

@@ -1,0 +1,108 @@
+{
+  "id": "naming",
+  "title": "Gọi tên cảm xúc",
+  "durationSec": 82,
+  "fps": 30,
+  "format": "narrative",
+  "themePreset": "morning",
+
+  "voice": { "file": "naming-voice.m4a", "durationSec": 78.88 },
+  "bgm": { "file": "bgm/lofi-motivational.mp3", "volume": 0.08, "fadeSec": 1.5 },
+
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#8b5a3c", "accent": "#f8f1e3", "motif": "❤" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nói về",
+    "hook": "GỌI ĐÚNG TÊN NÓ",
+    "subhook": "Một cảm xúc không tên sẽ điều khiển bạn từ trong bóng tối.",
+    "badge": "SÁCH HAY · 80s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+
+  "styleBible": {
+    "protagonist": "the same young Vietnamese person in their late 20s, softly-lit face, plain earth-toned clothing, thoughtful and slightly weary — appears in every scene as our recurring narrator-figure",
+    "style": "warm morning-light illustration, cream and terracotta palette, painterly soft-focus grain, cinematic composition with clear negative space, no text or letters",
+    "avoid": "no photorealism, no text/letters/logos in image, no 3D render, no harsh shadows"
+  },
+  "imageStyle": "warm morning-light illustration, cream and terracotta palette, painterly grain, 9:16 vertical, no text",
+
+  "captions": [
+    { "from": 0.14,  "to": 2.24,  "text": "Bạn không kiểm soát được cảm xúc của mình...", "emphasis": "kiểm soát", "size": "heading", "align": "top" },
+    { "from": 2.28,  "to": 4.72,  "text": "đơn giản vì bạn còn chưa gọi đúng tên nó.",     "emphasis": "gọi đúng tên",  "size": "subtitle", "align": "bottom" },
+    { "from": 5.25,  "to": 6.16,  "text": "Nghe lạ không?",                                  "size": "title",  "align": "center" },
+    { "from": 6.28,  "to": 7.56,  "text": "Nhưng ngẫm mà xem.",                              "size": "title",  "align": "center" },
+
+    { "from": 8.44,  "to": 12.64, "text": "Tôi từng có một giai đoạn lúc nào cũng thấy khó chịu, bồn chồn, dễ cáu.", "emphasis": "khó chịu, bồn chồn, dễ cáu", "size": "subtitle", "align": "top" },
+    { "from": 12.84, "to": 14.72, "text": "Tôi cứ nghĩ mình đang tức giận.",                 "emphasis": "tức giận", "size": "heading", "align": "bottom" },
+
+    { "from": 15.17, "to": 19.76, "text": "Cho đến một ngày, có người hỏi tôi một câu đơn giản:", "size": "subtitle", "align": "top" },
+    { "from": 19.82, "to": 23.13, "text": "\"Cậu đang giận... hay thật ra cậu đang SỢ?\"",  "emphasis": "SỢ", "size": "heading", "align": "center" },
+    { "from": 23.45, "to": 25.93, "text": "Hoá ra suốt thời gian đó, tôi không hề giận.",   "emphasis": "không hề giận", "size": "subtitle", "align": "top" },
+    { "from": 26.11, "to": 27.21, "text": "Tôi đang sợ.",                                    "emphasis": "sợ", "size": "title", "align": "center" },
+    { "from": 27.53, "to": 30.09, "text": "Sợ mình thất bại, sợ không đủ giỏi.",             "emphasis": "thất bại", "size": "heading", "align": "top" },
+
+    { "from": 30.95, "to": 32.65, "text": "Chỉ cần gọi đúng tên nó thôi...",                 "emphasis": "gọi đúng tên", "size": "heading", "align": "bottom" },
+    { "from": 32.69, "to": 34.41, "text": "cơn bão trong lòng tôi dịu hẳn đi.",              "emphasis": "dịu hẳn đi", "size": "heading", "align": "top" },
+
+    { "from": 35.47, "to": 36.73, "text": "Bạn có thấy mình trong đó không?",                "size": "heading", "align": "center" },
+    { "from": 36.85, "to": 40.85, "text": "Những lúc lòng rối bời mà chẳng biết chính xác mình đang cảm thấy gì.", "emphasis": "rối bời", "size": "subtitle", "align": "top" },
+
+    { "from": 41.11, "to": 46.09, "text": "Trí Tuệ Cảm Xúc dạy: một cảm xúc không được gọi tên...", "emphasis": "không được gọi tên", "size": "subtitle", "align": "bottom" },
+    { "from": 46.14, "to": 48.21, "text": "sẽ điều khiển bạn từ trong bóng tối.",            "emphasis": "bóng tối", "size": "heading", "align": "top" },
+    { "from": 48.39, "to": 51.77, "text": "Còn khi bạn gọi được tên nó, bạn kéo nó ra ánh sáng.", "emphasis": "ánh sáng", "size": "subtitle", "align": "bottom" },
+    { "from": 52.04, "to": 55.13, "text": "Và thứ gì bị nhìn thẳng... đều bớt đáng sợ đi.",  "emphasis": "bớt đáng sợ", "size": "heading", "align": "center" },
+
+    { "from": 55.92, "to": 58.81, "text": "Lần tới, khi trong lòng cồn cào khó chịu...",     "size": "subtitle", "align": "top" },
+    { "from": 58.89, "to": 59.77, "text": "đừng vội đè nén.",                                 "emphasis": "đè nén", "size": "title", "align": "center" },
+    { "from": 59.97, "to": 61.29, "text": "Cũng đừng vội bùng nổ.",                           "emphasis": "bùng nổ", "size": "title", "align": "center" },
+
+    { "from": 61.74, "to": 65.53, "text": "Hãy dừng lại và tự hỏi:",                          "size": "subtitle", "align": "center" },
+    { "from": 65.74, "to": 69.45, "text": "\"Mình đang thật sự cảm thấy gì? Và vì sao?\"",    "emphasis": "cảm thấy gì", "size": "heading", "align": "center" },
+
+    { "from": 69.49, "to": 71.53, "text": "Bạn đã đi từ nạn nhân của cảm xúc...",             "emphasis": "nạn nhân", "size": "heading", "align": "bottom" },
+    { "from": 71.56, "to": 72.73, "text": "thành người quan sát nó.",                          "emphasis": "người quan sát", "size": "title", "align": "top" },
+
+    { "from": 73.73, "to": 75.45, "text": "Bạn không cần dập tắt cảm xúc của mình.",          "emphasis": "không cần dập tắt", "size": "heading", "align": "top" },
+    { "from": 75.60, "to": 78.89, "text": "Bạn chỉ cần... hiểu nó đang cố nói với bạn điều gì.", "emphasis": "hiểu nó", "size": "heading", "align": "bottom" }
+  ],
+
+  "scenes": [
+    { "type": "imageScene", "from": 0.00,  "to": 8.30,  "autoPrompt": true, "kenBurns": "zoomIn",   "overlay": "dark", "seed": 100 },
+    { "type": "imageScene", "from": 8.30,  "to": 15.00, "autoPrompt": true, "kenBurns": "zoomOut",  "overlay": "dark", "seed": 110 },
+    { "type": "imageScene", "from": 15.00, "to": 23.30, "autoPrompt": true, "kenBurns": "panRight", "overlay": "dark", "seed": 120 },
+    { "type": "imageScene", "from": 23.30, "to": 34.60, "autoPrompt": true, "kenBurns": "zoomIn",   "overlay": "dark", "seed": 130 },
+    { "type": "imageScene", "from": 34.60, "to": 41.00, "autoPrompt": true, "kenBurns": "panLeft",  "overlay": "dark", "seed": 140 },
+    { "type": "book",       "from": 41.00, "to": 51.90 },
+    { "type": "imageScene", "from": 51.90, "to": 61.50, "autoPrompt": true, "kenBurns": "zoomIn",   "overlay": "dark", "seed": 150 },
+    { "type": "imageScene", "from": 61.50, "to": 72.90, "autoPrompt": true, "kenBurns": "panRight", "overlay": "dark", "seed": 160 },
+    { "type": "imageScene", "from": 72.90, "to": 82.00, "autoPrompt": true, "kenBurns": "zoomOut",  "overlay": "light", "seed": 170 },
+    {
+      "type": "payoff",
+      "from": 73.73,
+      "to": 82.00,
+      "ctaAt": 78.90,
+      "leftCard":  { "label": "DẬP TẮT",  "verb": "Nạn nhân", "icon": "🔥", "color": "negative" },
+      "rightCard": { "label": "HIỂU RÕ",  "verb": "Quan sát",  "icon": "🕯", "color": "primary"  }
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.22 },
+    { "at": 8.30,  "sound": "whoosh",   "volume": 0.20 },
+    { "at": 15.00, "sound": "uiSwitch", "volume": 0.20 },
+    { "at": 23.30, "sound": "ding",     "volume": 0.22 },
+    { "at": 34.60, "sound": "whoosh",   "volume": 0.20 },
+    { "at": 41.00, "sound": "pageTurn", "volume": 0.28 },
+    { "at": 51.90, "sound": "ding",     "volume": 0.22 },
+    { "at": 61.50, "sound": "uiSwitch", "volume": 0.20 },
+    { "at": 72.90, "sound": "whoosh",   "volume": 0.22 },
+    { "at": 78.90, "sound": "pageTurn", "volume": 0.28 }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "episodeId": "naming",
+  "generatedAt": "2026-07-08T14:38:03.589Z",
+  "protagonistNote": "the same young Vietnamese man in his late 20s, softly-lit face, plain earth-toned clothing, thoughtful and slightly weary",
+  "settingNote": "the story unfolds in a quiet suburban apartment kitchen and a nearby park path, using warm morning light and cream‑terracotta tones",
+  "arc": "from confusion and unrecognized anger, through the revelation of fear, to calm understanding and self‑observation",
+  "scenes": [
+    {
+      "sceneIndex": 0,
+      "prompt": "the same young Vietnamese man sits at a small kitchen table with a steaming cup, soft morning light filtering through a lace curtain, his face thoughtful and slightly weary, gentle grainy texture",
+      "reasoning": "establishes narrator in a calm, domestic setting that reflects the opening introspective tone"
+    },
+    {
+      "sceneIndex": 1,
+      "prompt": "the same young Vietnamese man pacing in his dim living room, shoulders tense, eyes darting, a faint aura of unease around him, warm lighting highlighting his weary expression",
+      "reasoning": "visualizes his inner agitation and frustration before the key question arrives"
+    },
+    {
+      "sceneIndex": 2,
+      "prompt": "the same young Vietnamese man in a sunlit park path, a friend beside him, asking the simple question, his face softening as realization dawns, surrounding trees in gentle terracotta hues",
+      "reasoning": "captures the pivotal moment of re‑labeling emotion in a peaceful outdoor setting"
+    },
+    {
+      "sceneIndex": 3,
+      "prompt": "the same young Vietnamese man sitting on a park bench, his shoulders relaxed, a calm breeze, the storm of anxiety visibly fading to a gentle cloud, warm morning light easing his worry",
+      "reasoning": "shows the emotional shift from fear to calm after naming the feeling"
+    },
+    {
+      "sceneIndex": 4,
+      "prompt": "the same young Vietnamese man walking along a quiet garden path, reflection in a small pond, his face contemplative, soft morning glow highlighting his thoughtful, weary gaze",
+      "reasoning": "illustrates the narrator questioning his own emotions in a reflective, serene setting"
+    },
+    {
+      "sceneIndex": 6,
+      "prompt": "the same young Vietnamese man standing in a quiet courtyard, light breaking through clouds, his posture open and calm, a subtle smile emerging as he observes his feelings without judgment, grainy warm tones",
+      "reasoning": "depicts the climax of self‑awareness and the soothing of fear through observation"
+    },
+    {
+      "sceneIndex": 7,
+      "prompt": "the same young Vietnamese man on a rooftop garden at sunrise, looking out over the city, a gentle breeze, his face calm and observant, warm light casting long shadows, symbolizing transition to observer",
+      "reasoning": "captures the culmination of the journey from victim to observer in a soaring, hopeful scene"
+    },
+    {
+      "sceneIndex": 8,
+      "prompt": "the same young Vietnamese man back in his kitchen, now peacefully cooking, his hands steady, a quiet smile, the morning light illuminating the scene, conveying understanding and acceptance of emotions",
+      "reasoning": "concludes with a calm, everyday moment of self‑acceptance and emotional insight"
+    }
+  ]
+}

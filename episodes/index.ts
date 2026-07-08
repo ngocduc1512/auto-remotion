@@ -18,10 +18,12 @@ import ei from './ei.json';
 import eiEssay from './ei-essay.json';
 import eiHook from './ei-hook.json';
 import sandel from './sandel.json';
+import naming from './naming.json';
 
 export const EPISODES: Episode[] = [
   ei as Episode,
   eiEssay as Episode,
   eiHook as Episode,
   sandel as Episode,
+  naming as Episode,
 ];
