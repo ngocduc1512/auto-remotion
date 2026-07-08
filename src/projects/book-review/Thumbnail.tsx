@@ -14,7 +14,7 @@ import { resolvePreset, patternStyle } from './themePresets';
  */
 type Props = {
   book?: Book;
-  /** Short line above the title, script-feel. Default "Hôm nói về". */
+  /** Short line above the title, script-feel. Default "Hôm nay nói về". */
   eyebrow?: string;
   /** BIG hook — the viral line viewers see in feed. Max ~50 chars. */
   hook: string;
@@ -28,7 +28,7 @@ type Props = {
 
 export const Thumbnail: React.FC<Props> = ({
   book = FEATURED_BOOK,
-  eyebrow = 'Hôm nói về',
+  eyebrow = 'Hôm nay nói về',
   hook,
   subhook,
   badge = 'SÁCH HAY',
