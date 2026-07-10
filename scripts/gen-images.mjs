@@ -68,7 +68,7 @@ fs.mkdirSync(imgDir, { recursive: true });
 // ── Helpers ──
 const POLLINATIONS_IMG = 'https://image.pollinations.ai/prompt/';
 const POLLINATIONS_TEXT = 'https://text.pollinations.ai/openai';
-const MIN_INTERVAL_MS = 5000;
+const MIN_INTERVAL_MS = 10000; // Pollinations anon caps concurrent at 1; 10s spacing lets prior request drain
 let lastCallAt = 0;
 
 async function throttle() {
@@ -134,9 +134,10 @@ async function generateAutoPrompt(captionsInScene, episodeContext) {
 
 /**
  * Fetch an image from Pollinations Flux and save to `outPath`.
- * Returns file size in bytes.
+ * Retries on 429 (Pollinations allows only 1 queued anon request at a time)
+ * with exponential backoff. Returns file size in bytes.
  */
-async function generateImage(prompt, seed, outPath) {
+async function generateImage(prompt, seed, outPath, attempt = 1) {
   const encoded = encodeURIComponent(prompt);
   const params = new URLSearchParams({
     width: '1080',
@@ -148,7 +149,13 @@ async function generateImage(prompt, seed, outPath) {
   });
   const url = `${POLLINATIONS_IMG}${encoded}?${params}`;
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`Pollinations image ${res.status}: ${await res.text()}`);
+  if (res.status === 429 && attempt <= 6) {
+    const wait = Math.min(60000, 8000 * attempt); // 8s, 16s, 24s, 32s, 40s, 48s
+    console.log(`      ⋯ 429, retry ${attempt}/6 in ${wait / 1000}s…`);
+    await new Promise((r) => setTimeout(r, wait));
+    return generateImage(prompt, seed, outPath, attempt + 1);
+  }
+  if (!res.ok) throw new Error(`Pollinations image ${res.status}: ${(await res.text()).slice(0, 200)}`);
   const buf = Buffer.from(await res.arrayBuffer());
   fs.writeFileSync(outPath, buf);
   return buf.length;

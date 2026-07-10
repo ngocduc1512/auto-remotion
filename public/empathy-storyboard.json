@@ -1,0 +1,49 @@
+{
+  "episodeId": "empathy",
+  "generatedAt": "2026-07-10T04:23:43.910Z",
+  "protagonistNote": "A young Vietnamese man in his 30s, wearing a plain earth‑toned button‑down shirt, always appears with the same calm, thoughtful expression and slightly tousled hair.",
+  "settingNote": "The story unfolds in a modest Vietnamese home: a light‑filled living room, a small kitchen, a quiet study, and a backyard garden, all rendered in warm morning light with a cream and terracotta palette.",
+  "arc": "The narrative moves from isolation and self‑certainty, through emotional disconnect, to a realization of the need for empathetic listening, ending with a hopeful invitation to truly understand one another.",
+  "scenes": [
+    {
+      "sceneIndex": 0,
+      "prompt": "The same young Vietnamese man sits alone on a cream‑linen sofa in a modest living room, morning light filtering through a small window, his face contemplative and slightly weary as he listens to a distant, unseen argument",
+      "reasoning": "Establishes the protagonist’s loneliness and the emotional tone of the opening."
+    },
+    {
+      "sceneIndex": 1,
+      "prompt": "The same young Vietnamese man stands in a sunlit kitchen kitchen, a slice of bread on a wooden counter, his expression confident as he explains a logical point to an unseen listener, the room bathed in warm morning light",
+      "reasoning": "Shows his confident, logical nature, setting up the theme of being right."
+    },
+    {
+      "sceneIndex": 2,
+      "prompt": "The same young Vietnamese man, wearing a plain button‑down, leans over a wooden table in the living room, herding a trembling wife toward a logical conclusion, the scene illuminated by gentle morning rays, his face showing calm certainty",
+      "reasoning": "Illustrates his analytical response to his wife's sadness, reinforcing his perceived correctness."
+    },
+    {
+      "sceneIndex": 3,
+      "prompt": "The same young Vietnamese man sits alone on a wooden bench in the backyard garden, a child’s toy beside him, the house empty and quiet, his shoulders slumped, the cool morning light casting soft shadows on his weary face",
+      "reasoning": "Depicts the growing emotional distance and isolation in the home."
+    },
+    {
+      "sceneIndex": 4,
+      "prompt": "The same young Vietnamese man sits at his study desk, a single lamp casting a warm glow, he looks up from his notebook, eyes searching, as if asking an unseen friend why he feels abandoned, the room quiet and intimate",
+      "reasoning": "Shows the moment of vulnerability and questioning of his own role."
+    },
+    {
+      "sceneIndex": 6,
+      "prompt": "The same young Vietnamese man sits on a low stool in a dimly lit corner of his living room, a soft lamp beside him, he leans forward with one hand on his knee, his face open and attentive as he listens to a silent conversation, the scene bathed in warm, gentle light",
+      "reasoning": "Illustrates the shift toward empathetic listening, a key message of the narrative."
+    },
+    {
+      "sceneIndex": 7,
+      "prompt": "The same young Vietnamese man stands in a small kitchen doorway, his hand resting on the counter, he faces an unseen person, his expression calm and reassuring, the warm morning light highlights his gentle posture, inviting connection",
+      "reasoning": "Conveys the actionable advice to listen and not judge, embodying the guidance."
+    },
+    {
+      "sceneIndex": 8,
+      "prompt": "The same young Vietnamese man sits on a porch swing outside his home, the sunrise painting the sky in soft terracotta hues, he gazes peacefully into the distance, a sense of newfound understanding reflected in his relaxed smile",
+      "reasoning": "Wraps up with a hopeful, hopeful conclusion, showing the benefit of true understanding."
+    }
+  ]
+}

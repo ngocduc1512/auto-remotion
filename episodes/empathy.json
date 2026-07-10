@@ -1,0 +1,111 @@
+{
+  "id": "empathy",
+  "title": "Đúng nhưng vẫn cô đơn",
+  "durationSec": 78,
+  "fps": 30,
+  "format": "narrative",
+  "themePreset": "morning",
+
+  "voice": { "file": "empathy-voice.m4a", "durationSec": 73.36 },
+  "bgm": { "file": "bgm/lofi-motivational.mp3", "volume": 0.08, "fadeSec": 1.5 },
+
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#8b5a3c", "accent": "#f8f1e3", "motif": "❤" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nay nói về",
+    "hook": "LUÔN ĐÚNG",
+    "subhook": "Vẫn cô đơn trong chính ngôi nhà mình.",
+    "badge": "SÁCH HAY · 75s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+
+  "styleBible": {
+    "protagonist": "the same young Vietnamese man in his 30s, plain earth-toned button-down or knit, appears in every scene — sometimes at home with his wife and child, sometimes alone in his study; his face and clothing stay recognizable across all shots",
+    "style": "warm morning-light illustration, cream and terracotta palette, painterly soft-focus grain, cinematic composition with clear negative space, subtle vignette",
+    "avoid": "no photorealism, no text/letters/logos in image, no 3D render, no harsh shadows, no cartoonish exaggeration"
+  },
+  "imageStyle": "warm morning-light illustration, cream and terracotta palette, painterly grain, 9:16 vertical, no text",
+
+  "captions": [
+    { "from": 0.20,  "to": 2.64,  "text": "Bạn có thể thắng trong mọi cuộc tranh cãi...", "emphasis": "thắng",       "size": "heading", "align": "top" },
+    { "from": 2.78,  "to": 3.92,  "text": "mà vẫn cô đơn...",                              "emphasis": "cô đơn",      "size": "title",   "align": "center" },
+    { "from": 3.95,  "to": 5.04,  "text": "trong chính ngôi nhà mình.",                    "emphasis": "nhà mình",    "size": "title",   "align": "center" },
+    { "from": 5.47,  "to": 7.23,  "text": "Nghe đau, nhưng là thật.",                      "emphasis": "đau",         "size": "title",   "align": "center" },
+
+    { "from": 7.56,  "to": 9.52,  "text": "Tôi từng biết một người rất giỏi lý lẽ.",       "emphasis": "giỏi lý lẽ",  "size": "heading", "align": "top" },
+    { "from": 9.73,  "to": 12.40, "text": "Nói chuyện với ai, anh cũng phải là người đúng.", "emphasis": "phải đúng", "size": "subtitle", "align": "bottom" },
+
+    { "from": 12.80, "to": 18.48, "text": "Vợ buồn kể một chuyện, anh lập tức phân tích: \"em sai chỗ này, đáng lẽ phải làm thế kia\".", "emphasis": "phân tích", "size": "subtitle", "align": "top" },
+    { "from": 18.66, "to": 19.52, "text": "Anh đúng.",                                     "emphasis": "đúng",        "size": "title",   "align": "center" },
+    { "from": 19.76, "to": 20.80, "text": "Lúc nào cũng đúng.",                            "emphasis": "cũng đúng",   "size": "title",   "align": "center" },
+
+    { "from": 21.54, "to": 23.36, "text": "Nhưng dần dần, vợ anh thôi kể.",                "emphasis": "thôi kể",     "size": "heading", "align": "bottom" },
+    { "from": 23.52, "to": 24.96, "text": "Con anh thôi tâm sự.",                          "emphasis": "thôi tâm sự", "size": "title",   "align": "center" },
+    { "from": 25.12, "to": 26.96, "text": "Ngôi nhà vẫn đủ người...",                      "size": "heading", "align": "top" },
+    { "from": 27.04, "to": 28.24, "text": "mà lạnh lẽo lạ thường.",                        "emphasis": "lạnh lẽo",    "size": "title",   "align": "center" },
+
+    { "from": 29.15, "to": 32.25, "text": "Một ngày anh hỏi tôi:",                          "size": "subtitle", "align": "bottom" },
+    { "from": 32.31, "to": 36.97, "text": "\"Anh có làm gì sai đâu... sao ai cũng xa anh?\"", "emphasis": "xa anh", "size": "heading", "align": "center" },
+
+    { "from": 37.42, "to": 41.00, "text": "Bạn có thấy mình, dù chỉ một chút, trong đó không?", "emphasis": "một chút", "size": "subtitle", "align": "center" },
+
+    { "from": 41.00, "to": 44.97, "text": "Trí Tuệ Cảm Xúc nói: khi một người chia sẻ cảm xúc...", "emphasis": "chia sẻ",  "size": "subtitle", "align": "bottom" },
+    { "from": 45.18, "to": 46.89, "text": "họ không tìm một quan toà phân xử đúng sai.",   "emphasis": "quan toà",   "size": "heading", "align": "top" },
+    { "from": 46.94, "to": 47.61, "text": "Họ chỉ tìm một người... chịu HIỂU.",           "emphasis": "HIỂU",       "size": "heading", "align": "bottom" },
+
+    { "from": 48.09, "to": 49.77, "text": "Đồng cảm không phải là đồng ý.",                "emphasis": "không phải đồng ý", "size": "heading", "align": "top" },
+    { "from": 49.98, "to": 55.00, "text": "Nó chỉ là bước sang phía bên kia, và nói:",     "emphasis": "phía bên kia", "size": "subtitle", "align": "bottom" },
+    { "from": 55.00, "to": 57.50, "text": "\"Anh hiểu vì sao em thấy như vậy.\"",          "emphasis": "hiểu",        "size": "heading", "align": "center" },
+
+    { "from": 57.60, "to": 58.41, "text": "Nên lần tới, khi ai đó buồn kể với bạn...",     "size": "subtitle", "align": "top" },
+    { "from": 58.45, "to": 59.37, "text": "đừng vội sửa.",                                  "emphasis": "sửa",         "size": "title",   "align": "center" },
+    { "from": 59.53, "to": 60.33, "text": "Đừng vội khuyên.",                               "emphasis": "khuyên",      "size": "title",   "align": "center" },
+    { "from": 60.61, "to": 62.17, "text": "Đừng vội chứng minh họ sai.",                    "emphasis": "chứng minh",  "size": "heading", "align": "top" },
+
+    { "from": 62.43, "to": 63.77, "text": "Hãy chỉ lắng nghe.",                             "emphasis": "lắng nghe",   "size": "title",   "align": "center" },
+    { "from": 63.96, "to": 66.21, "text": "Và cho họ thấy... họ không một mình.",           "emphasis": "không một mình", "size": "heading", "align": "bottom" },
+
+    { "from": 66.94, "to": 70.65, "text": "Điều người ta cần... không phải một câu trả lời đúng.", "emphasis": "trả lời đúng", "size": "subtitle", "align": "top" },
+    { "from": 71.12, "to": 73.37, "text": "Mà chỉ là một người... thật sự hiểu.",           "emphasis": "thật sự hiểu", "size": "heading", "align": "bottom" }
+  ],
+
+  "scenes": [
+    { "type": "imageScene", "from": 0.00,  "to": 7.30,  "autoPrompt": true, "kenBurns": "zoomIn",   "overlay": "dark", "seed": 200 },
+    { "type": "imageScene", "from": 7.30,  "to": 12.60, "autoPrompt": true, "kenBurns": "panRight", "overlay": "dark", "seed": 210 },
+    { "type": "imageScene", "from": 12.60, "to": 21.30, "autoPrompt": true, "kenBurns": "zoomIn",   "overlay": "dark", "seed": 220 },
+    { "type": "imageScene", "from": 21.30, "to": 29.00, "autoPrompt": true, "kenBurns": "zoomOut",  "overlay": "dark", "seed": 230 },
+    { "type": "imageScene", "from": 29.00, "to": 37.20, "autoPrompt": true, "kenBurns": "panLeft",  "overlay": "dark", "seed": 240 },
+    { "type": "book",       "from": 37.20, "to": 47.90 },
+    { "type": "imageScene", "from": 47.90, "to": 57.60, "autoPrompt": true, "kenBurns": "zoomIn",   "overlay": "dark", "seed": 250 },
+    { "type": "imageScene", "from": 57.60, "to": 66.70, "autoPrompt": true, "kenBurns": "panRight", "overlay": "dark", "seed": 260 },
+    { "type": "imageScene", "from": 66.70, "to": 78.00, "autoPrompt": true, "kenBurns": "zoomOut",  "overlay": "light", "seed": 270 },
+    {
+      "type": "payoff",
+      "from": 66.94,
+      "to": 78.00,
+      "ctaAt": 73.40,
+      "leftCard":  { "label": "QUAN TOÀ",   "verb": "Phân xử",  "icon": "⚖", "color": "negative" },
+      "rightCard": { "label": "NGƯỜI HIỂU", "verb": "Lắng nghe", "icon": "❤", "color": "primary"  }
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.22 },
+    { "at": 7.30,  "sound": "whoosh",   "volume": 0.20 },
+    { "at": 12.60, "sound": "uiSwitch", "volume": 0.20 },
+    { "at": 21.30, "sound": "ding",     "volume": 0.22 },
+    { "at": 29.00, "sound": "whoosh",   "volume": 0.20 },
+    { "at": 37.20, "sound": "pageTurn", "volume": 0.28 },
+    { "at": 47.90, "sound": "ding",     "volume": 0.22 },
+    { "at": 57.60, "sound": "uiSwitch", "volume": 0.20 },
+    { "at": 66.70, "sound": "whoosh",   "volume": 0.22 },
+    { "at": 73.40, "sound": "pageTurn", "volume": 0.28 }
+  ]
+}
