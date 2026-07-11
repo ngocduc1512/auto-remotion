@@ -20,6 +20,7 @@ import eiHook from './ei-hook.json';
 import sandel from './sandel.json';
 import naming from './naming.json';
 import empathy from './empathy.json';
+import messenger from './messenger.json';
 
 export const EPISODES: Episode[] = [
   ei as Episode,
@@ -28,4 +29,5 @@ export const EPISODES: Episode[] = [
   sandel as Episode,
   naming as Episode,
   empathy as Episode,
+  messenger as Episode,
 ];

@@ -1,0 +1,112 @@
+{
+  "id": "messenger",
+  "title": "Cảm xúc là người đưa tin",
+  "durationSec": 80,
+  "fps": 30,
+  "format": "narrative",
+  "themePreset": "library",
+
+  "voice": { "file": "messenger-voice.m4a", "durationSec": 76.16 },
+  "bgm": { "file": "bgm/lofi-motivational.mp3", "volume": 0.08, "fadeSec": 1.5 },
+
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#3d5a80", "accent": "#f5ead6", "motif": "✉" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nay nói về",
+    "hook": "NGƯỜI ĐƯA TIN",
+    "subhook": "Mỗi cảm xúc đến để nói với bạn một điều.",
+    "badge": "SÁCH HAY · 76s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+
+  "styleBible": {
+    "protagonist": "the same young Vietnamese man in his early 30s, softly-lit face, wearing a plain dark-navy button-down or knit sweater, quiet and slightly worn-looking — appears in every scene as our recurring narrator; his features stay consistent across shots",
+    "style": "moody cinematic illustration, deep navy and warm gold palette (library-at-dusk lighting), painterly soft-focus grain, cinematic composition with clear negative space, subtle vignette",
+    "avoid": "no photorealism, no text/letters/logos in image, no 3D render, no harsh shadows, no cartoonish exaggeration"
+  },
+  "imageStyle": "moody library-at-dusk illustration, deep navy and warm gold palette, painterly grain, 9:16 vertical, no text",
+
+  "captions": [
+    { "from": 0.14,  "to": 1.52,  "text": "Bạn đã dành cả đời...",                          "size": "title",   "align": "top" },
+    { "from": 1.55,  "to": 2.88,  "text": "để chống lại cảm xúc của mình.",                 "emphasis": "chống lại",    "size": "heading", "align": "bottom" },
+    { "from": 3.95,  "to": 5.44,  "text": "Nhưng nếu suốt thời gian đó...",                 "size": "heading", "align": "top" },
+    { "from": 5.47,  "to": 7.20,  "text": "nó đang cố CỨU bạn thì sao?",                    "emphasis": "CỨU",          "size": "heading", "align": "center" },
+    { "from": 7.63,  "to": 8.40,  "text": "Nghe kỹ nhé.",                                    "size": "title",   "align": "center" },
+
+    { "from": 9.10,  "to": 12.60, "text": "Tôi từng tin rằng người mạnh mẽ là người không được phép yếu đuối.", "emphasis": "yếu đuối", "size": "subtitle", "align": "bottom" },
+    { "from": 12.83, "to": 13.60, "text": "Buồn ư?",                                         "size": "title",   "align": "center" },
+    { "from": 13.76, "to": 14.64, "text": "Nuốt vào trong.",                                 "emphasis": "Nuốt",         "size": "title",   "align": "center" },
+    { "from": 14.83, "to": 15.84, "text": "Tổn thương ư?",                                   "size": "title",   "align": "center" },
+    { "from": 16.00, "to": 16.80, "text": "Cười cho qua.",                                   "emphasis": "Cười",         "size": "title",   "align": "center" },
+    { "from": 17.43, "to": 18.20, "text": "Mệt mỏi ư?",                                      "size": "title",   "align": "center" },
+    { "from": 18.30, "to": 19.73, "text": "Cứ gồng lên mà đi tiếp.",                         "emphasis": "gồng lên",     "size": "heading", "align": "bottom" },
+
+    { "from": 20.00, "to": 20.80, "text": "Tôi nén hết.",                                    "emphasis": "nén hết",      "size": "title",   "align": "center" },
+    { "from": 21.04, "to": 22.24, "text": "Tưởng thế là bản lĩnh.",                          "emphasis": "bản lĩnh",     "size": "title",   "align": "center" },
+
+    { "from": 23.09, "to": 26.08, "text": "Cho đến một ngày, tất cả những gì bị đè xuống...", "emphasis": "đè xuống",     "size": "subtitle", "align": "top" },
+    { "from": 26.12, "to": 27.20, "text": "bung ra cùng một lúc.",                            "emphasis": "bung ra",      "size": "title",   "align": "center" },
+    { "from": 28.06, "to": 30.08, "text": "Tôi kiệt sức, chẳng hiểu nổi chính mình.",         "emphasis": "kiệt sức",     "size": "heading", "align": "top" },
+
+    { "from": 30.93, "to": 32.24, "text": "Bạn có thấy mình trong đó không?",                 "size": "heading", "align": "center" },
+    { "from": 32.48, "to": 34.32, "text": "Cái kiểu luôn tỏ ra ổn...",                        "emphasis": "tỏ ra ổn",     "size": "heading", "align": "top" },
+    { "from": 34.35, "to": 36.00, "text": "trong khi bên trong đang vụn vỡ ấy.",              "emphasis": "vụn vỡ",       "size": "heading", "align": "bottom" },
+
+    { "from": 36.20, "to": 41.84, "text": "Trí Tuệ Cảm Xúc: cảm xúc không phải kẻ thù cần tiêu diệt.", "emphasis": "kẻ thù", "size": "subtitle", "align": "top" },
+    { "from": 42.00, "to": 43.12, "text": "Nó là người đưa tin.",                             "emphasis": "người đưa tin", "size": "title",   "align": "center" },
+
+    { "from": 43.48, "to": 47.12, "text": "Nỗi buồn nói: có điều gì đó quan trọng vừa mất đi.", "emphasis": "mất đi",       "size": "subtitle", "align": "top" },
+    { "from": 47.44, "to": 50.72, "text": "Cơn giận nói: một ranh giới của bạn vừa bị xâm phạm.", "emphasis": "xâm phạm",    "size": "subtitle", "align": "bottom" },
+    { "from": 51.08, "to": 54.48, "text": "Nỗi sợ nói: có thứ gì đó bạn đang trân trọng...",   "emphasis": "trân trọng",   "size": "subtitle", "align": "top" },
+    { "from": 54.53, "to": 55.36, "text": "và sợ đánh mất.",                                    "emphasis": "đánh mất",     "size": "title",   "align": "center" },
+
+    { "from": 56.23, "to": 58.20, "text": "Mỗi cảm xúc đều mang một lời nhắn.",                "emphasis": "lời nhắn",     "size": "heading", "align": "top" },
+    { "from": 58.34, "to": 61.44, "text": "Đè nén nó... chẳng khác nào xé lá thư mà chưa kịp đọc.", "emphasis": "xé lá thư",   "size": "subtitle", "align": "bottom" },
+
+    { "from": 61.51, "to": 63.52, "text": "Nên đừng đánh nhau với cảm xúc của mình nữa.",     "emphasis": "đừng đánh nhau", "size": "subtitle", "align": "top" },
+    { "from": 63.68, "to": 67.50, "text": "Hãy ngồi xuống, lắng nghe, và hỏi:",                "emphasis": "lắng nghe",    "size": "subtitle", "align": "center" },
+    { "from": 67.50, "to": 70.48, "text": "\"Bạn đến để nói với tôi điều gì?\"",               "emphasis": "điều gì",      "size": "heading", "align": "center" },
+
+    { "from": 70.53, "to": 72.00, "text": "Làm chủ cảm xúc chưa bao giờ là dập tắt nó.",       "emphasis": "dập tắt",      "size": "heading", "align": "bottom" },
+    { "from": 72.55, "to": 73.76, "text": "Mà là hiểu nó...",                                   "emphasis": "hiểu",         "size": "title",   "align": "center" },
+    { "from": 73.82, "to": 75.60, "text": "rồi nhẹ nhàng dẫn nó đi cùng mình.",                 "emphasis": "dẫn nó đi cùng", "size": "heading", "align": "top" }
+  ],
+
+  "scenes": [
+    { "type": "imageScene", "from": 0.00,  "to": 8.60,  "prompt": "The same young Vietnamese man in his early 30s, plain dark-navy button-down, sitting at a wooden library desk lit by a single warm gold desk lamp, his hand gripping his own wrist tightly as if restraining an inner storm, his face weary and inward, deep navy library shadows and bookshelves behind him", "kenBurns": "zoomIn",   "overlay": "dark", "seed": 300 },
+    { "type": "imageScene", "from": 8.60,  "to": 22.40, "prompt": "The same young Vietnamese man in his early 30s, plain dark-navy button-down, standing in a dim library-office corridor, forcing a tight smile despite exhausted eyes and a clenched jaw, a single overhead pendant light casting warm gold on his shoulders while everything else remains in deep navy shadow", "kenBurns": "panRight", "overlay": "dark", "seed": 310 },
+    { "type": "imageScene", "from": 22.40, "to": 30.30, "prompt": "The same young Vietnamese man in his early 30s, plain dark-navy sweater, collapsed on the wooden floor of a dark library corner with his back against a tall bookshelf, head buried in his hands, an overturned porcelain mug beside him, a distant window casting a single band of warm gold light, everything else in deep navy shadow", "kenBurns": "zoomIn",   "overlay": "dark", "seed": 320 },
+    { "type": "imageScene", "from": 30.30, "to": 36.20, "prompt": "The same young Vietnamese man in his early 30s, plain dark-navy button-down, sitting before an antique library mirror at dusk, one side of his reflected face composed and calm bathed in warm gold light, the other side softly cracked like porcelain lost in deep navy shadow", "kenBurns": "panLeft",  "overlay": "dark", "seed": 330 },
+    { "type": "book",       "from": 36.20, "to": 43.30 },
+    { "type": "imageScene", "from": 43.30, "to": 56.10, "prompt": "Three antique sealed envelopes with dark wax seals arranged neatly on a warm-lit oak library desk, an old brass letter opener resting nearby, warm gold light from a green banker's lamp illuminating one envelope, the other two half in navy shadow, no hands visible, quiet contemplative mood", "kenBurns": "zoomOut",  "overlay": "dark", "seed": 340 },
+    { "type": "imageScene", "from": 56.10, "to": 63.60, "prompt": "A single hand — sleeve of a plain dark-navy button-down — hovering just above a crumpled sealed envelope on a wooden library desk, caught mid-motion of stopping just before tearing it, warm gold lamp light catching the paper edges, deep navy shadow around the desk, quiet suspended tension", "kenBurns": "zoomIn",   "overlay": "dark", "seed": 350 },
+    { "type": "imageScene", "from": 63.60, "to": 80.00, "prompt": "The same young Vietnamese man in his early 30s, plain dark-navy button-down, sitting calmly in a worn leather armchair by a tall library window at dusk, holding an open envelope in one hand and quietly reading the letter he pulled from it, warm gold sunset light on the paper and his face, deep navy library behind him, expression of quiet understanding and relief", "kenBurns": "panRight", "overlay": "dark", "seed": 360 },
+    {
+      "type": "payoff",
+      "from": 70.53,
+      "to": 80.00,
+      "ctaAt": 76.20,
+      "leftCard":  { "label": "KẺ THÙ",       "verb": "Dập tắt", "icon": "🗡", "color": "negative" },
+      "rightCard": { "label": "NGƯỜI ĐƯA TIN", "verb": "Lắng nghe", "icon": "✉", "color": "primary"  }
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.22 },
+    { "at": 8.60,  "sound": "whoosh",   "volume": 0.20 },
+    { "at": 22.40, "sound": "uiSwitch", "volume": 0.22 },
+    { "at": 30.30, "sound": "ding",     "volume": 0.20 },
+    { "at": 36.20, "sound": "pageTurn", "volume": 0.28 },
+    { "at": 43.30, "sound": "whoosh",   "volume": 0.20 },
+    { "at": 56.10, "sound": "ding",     "volume": 0.22 },
+    { "at": 63.60, "sound": "uiSwitch", "volume": 0.20 },
+    { "at": 76.20, "sound": "pageTurn", "volume": 0.28 }
+  ]
+}

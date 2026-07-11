@@ -68,7 +68,7 @@ fs.mkdirSync(imgDir, { recursive: true });
 // ── Helpers ──
 const POLLINATIONS_IMG = 'https://image.pollinations.ai/prompt/';
 const POLLINATIONS_TEXT = 'https://text.pollinations.ai/openai';
-const MIN_INTERVAL_MS = 10000; // Pollinations anon caps concurrent at 1; 10s spacing lets prior request drain
+const MIN_INTERVAL_MS = 15000; // Pollinations anon caps concurrent at 1; larger interval reduces 429s during busy periods
 let lastCallAt = 0;
 
 async function throttle() {
