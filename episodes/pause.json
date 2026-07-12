@@ -1,0 +1,105 @@
+{
+  "id": "pause",
+  "title": "Khựng lại một giây",
+  "durationSec": 71,
+  "fps": 30,
+  "format": "narrative",
+  "themePreset": "library",
+
+  "voice": { "file": "pause-voice.m4a", "durationSec": 67.20 },
+  "bgm": { "file": "bgm/lofi-motivational.mp3", "volume": 0.08, "fadeSec": 1.5 },
+
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#3d5a80", "accent": "#f5ead6", "motif": "⏸" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nay nói về",
+    "hook": "SỢ, KHÔNG PHẢI GIẬN",
+    "subhook": "Một câu hỏi khiến tôi đứng hình.",
+    "badge": "SÁCH HAY · 67s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+
+  "styleBible": {
+    "protagonist": "the same young Vietnamese man in his late 20s, wearing a dark olive-green knit sweater over a t-shirt, tousled short hair, calm but slightly worn expression — appears in every scene as our recurring narrator; distinct from previous episodes' protagonists by the olive/forest palette of his clothing",
+    "style": "moody cinematic illustration, deep navy and warm gold palette (library-at-dusk lighting), painterly soft-focus grain, cinematic composition with clear negative space, subtle vignette",
+    "avoid": "no photorealism, no text/letters/logos in image, no 3D render, no harsh shadows, no cartoonish exaggeration"
+  },
+  "imageStyle": "moody library-at-dusk illustration, deep navy and warm gold palette, painterly grain, 9:16 vertical, no text",
+
+  "captions": [
+    { "from": 0.07,  "to": 3.28,  "text": "Có bao giờ bạn thấy trong người khó chịu, bồn chồn...", "emphasis": "khó chịu, bồn chồn", "size": "subtitle", "align": "top" },
+    { "from": 3.36,  "to": 4.64,  "text": "mà chẳng hiểu vì sao chưa?",                         "emphasis": "chẳng hiểu",       "size": "heading",  "align": "center" },
+
+    { "from": 5.14,  "to": 6.80,  "text": "Tôi từng có một dạo y như vậy.",                     "size": "heading",  "align": "top" },
+    { "from": 6.99,  "to": 9.60,  "text": "Suốt ngày cau có, ai đụng vào cũng gắt.",             "emphasis": "cau có",            "size": "heading",  "align": "bottom" },
+    { "from": 9.72,  "to": 12.24, "text": "Tôi cứ đinh ninh là mình đang bực, đang cáu.",        "emphasis": "đinh ninh",         "size": "subtitle", "align": "top" },
+
+    { "from": 12.74, "to": 17.12, "text": "Một hôm, có người hỏi tôi đúng một câu:",              "size": "subtitle", "align": "bottom" },
+    { "from": 17.18, "to": 20.64, "text": "\"Cậu đang giận... hay thật ra cậu đang lo sợ?\"",     "emphasis": "lo sợ",             "size": "heading",  "align": "center" },
+
+    { "from": 21.07, "to": 22.56, "text": "Tôi đứng hình.",                                       "emphasis": "đứng hình",         "size": "title",    "align": "center" },
+    { "from": 22.74, "to": 23.68, "text": "Hoá ra tôi có giận gì đâu.",                           "emphasis": "không giận",        "size": "heading",  "align": "bottom" },
+    { "from": 23.90, "to": 24.60, "text": "Tôi sợ.",                                              "emphasis": "sợ",                "size": "title",    "align": "center" },
+    { "from": 24.70, "to": 26.84, "text": "Sợ làm không xong, sợ mình thua kém người ta.",         "emphasis": "thua kém",          "size": "subtitle", "align": "bottom" },
+
+    { "from": 28.36, "to": 29.28, "text": "Lạ lắm...",                                            "size": "title",    "align": "center" },
+    { "from": 29.32, "to": 32.72, "text": "chỉ cần gọi trúng tên cái cảm giác đó thôi, lòng nhẹ hẳn.", "emphasis": "gọi trúng tên", "size": "subtitle", "align": "bottom" },
+
+    { "from": 33.70, "to": 34.96, "text": "Bạn có thấy mình trong đó không?",                     "size": "heading",  "align": "center" },
+    { "from": 35.10, "to": 38.48, "text": "Những lúc trong lòng rối tung mà không biết gọi nó là gì.", "emphasis": "rối tung",     "size": "subtitle", "align": "bottom" },
+
+    { "from": 39.24, "to": 41.44, "text": "Một cảm xúc mà mình không gọi được tên...",             "emphasis": "không gọi được tên", "size": "subtitle", "align": "top" },
+    { "from": 41.50, "to": 43.12, "text": "nó sẽ âm thầm dắt mũi mình.",                           "emphasis": "dắt mũi",           "size": "heading",  "align": "bottom" },
+    { "from": 43.28, "to": 47.10, "text": "Còn khi bạn gọi thẳng nó ra, nó bớt đáng sợ đi nhiều.", "emphasis": "gọi thẳng",         "size": "subtitle", "align": "top" },
+
+    { "from": 47.75, "to": 49.93, "text": "Nên lần sau, thấy trong người khó ở...",                "size": "heading",  "align": "bottom" },
+    { "from": 49.97, "to": 50.89, "text": "đừng vội nén xuống.",                                   "emphasis": "nén xuống",         "size": "title",    "align": "center" },
+    { "from": 51.09, "to": 52.49, "text": "Cũng đừng vội trút lên ai.",                            "emphasis": "trút lên",          "size": "heading",  "align": "bottom" },
+
+    { "from": 52.91, "to": 56.09, "text": "Khựng lại một giây, tự hỏi:",                            "emphasis": "một giây",          "size": "subtitle", "align": "center" },
+    { "from": 56.30, "to": 59.37, "text": "\"Mình đang thấy gì đây? Vì sao lại thấy vậy?\"",       "emphasis": "thấy gì",           "size": "heading",  "align": "center" },
+    { "from": 59.42, "to": 61.25, "text": "Chỉ vậy thôi, bạn đã bớt bị nó cuốn đi rồi.",           "emphasis": "cuốn đi",           "size": "heading",  "align": "top" },
+
+    { "from": 62.13, "to": 64.01, "text": "Bạn không cần dẹp bỏ cảm xúc của mình.",                "emphasis": "không cần dẹp bỏ", "size": "subtitle", "align": "bottom" },
+    { "from": 64.62, "to": 67.21, "text": "Bạn chỉ cần... hiểu nó đang muốn nhắc mình điều gì.",   "emphasis": "hiểu",              "size": "heading",  "align": "top" }
+  ],
+
+  "scenes": [
+    { "type": "imageScene", "from": 0.00,  "to": 5.00,  "prompt": "The same young Vietnamese man in his late 20s wearing a dark olive-green knit sweater, pacing alone in a dimly lit library corner at dusk, brow furrowed, shoulders tense, warm gold lamplight catching one side of his face while the rest fades into deep navy shadow, painterly grain", "kenBurns": "zoomIn", "overlay": "dark", "seed": 500 },
+    { "type": "imageScene", "from": 5.00,  "to": 12.60, "prompt": "The same young Vietnamese man in his late 20s in an olive-green knit sweater, sitting at an old wooden library desk with clenched jaw and pinched brow, a scatter of open books and cold tea in front of him, warm gold desk lamp against deep navy shadows, painterly grain, quiet agitation", "kenBurns": "panRight", "overlay": "dark", "seed": 510 },
+    { "type": "imageScene", "from": 12.60, "to": 21.00, "prompt": "The same young Vietnamese man in his late 20s in an olive-green knit sweater, sitting across from an older mentor in a warm library alcove, both leaning in on a small wooden table, the mentor speaking quietly with a gentle look while the young man's face is caught mid-realization, warm gold and deep navy palette, painterly grain",  "kenBurns": "zoomIn", "overlay": "dark", "seed": 520 },
+    { "type": "imageScene", "from": 21.00, "to": 27.10, "prompt": "The same young Vietnamese man in his late 20s in an olive-green knit sweater, staring into the middle distance in a quiet library corner, expression collapsing from anger to raw vulnerability as understanding dawns, single warm gold candle-light illuminating his face against deep navy shelves, painterly grain",         "kenBurns": "zoomOut", "overlay": "dark", "seed": 530 },
+    { "type": "imageScene", "from": 27.10, "to": 33.50, "prompt": "The same young Vietnamese man in his late 20s in an olive-green knit sweater, exhaling slowly by a leaded-glass library window at dusk, hand resting on the glass, warm gold outside light softly illuminating his relieved face, deep navy interior behind, painterly grain, sense of release",                    "kenBurns": "panLeft", "overlay": "dark", "seed": 540 },
+    { "type": "book",       "from": 33.50, "to": 43.30 },
+    { "type": "imageScene", "from": 43.30, "to": 52.90, "prompt": "The same young Vietnamese man in his late 20s in an olive-green knit sweater, standing at a library threshold about to speak, one hand raised mid-gesture, held back by a moment of self-awareness, warm gold light on his face, deep navy library behind, painterly grain, the moment of pause captured",           "kenBurns": "zoomIn", "overlay": "dark", "seed": 550 },
+    { "type": "imageScene", "from": 52.90, "to": 61.50, "prompt": "The same young Vietnamese man in his late 20s in an olive-green knit sweater, sitting cross-legged in a quiet library nook holding a warm cup of tea, eyes half-closed in calm self-inquiry, warm gold lamp beside him, deep navy shelves around, painterly grain, quiet presence",                                 "kenBurns": "panRight", "overlay": "dark", "seed": 560 },
+    { "type": "imageScene", "from": 61.50, "to": 71.00, "prompt": "The same young Vietnamese man in his late 20s in an olive-green knit sweater, sitting peacefully at a library window at golden hour, holding an open journal but looking gently outward, warm gold sunset light on his composed face, deep navy library interior behind, painterly grain, sense of understanding", "kenBurns": "zoomOut", "overlay": "light", "seed": 570 },
+    {
+      "type": "payoff",
+      "from": 62.13,
+      "to": 71.00,
+      "ctaAt": 67.30,
+      "leftCard":  { "label": "VỘI VÃ",   "verb": "Trút lên",  "icon": "🌊", "color": "negative" },
+      "rightCard": { "label": "MỘT GIÂY", "verb": "Quan sát",  "icon": "⏸",  "color": "primary"  }
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.22 },
+    { "at": 5.00,  "sound": "whoosh",   "volume": 0.20 },
+    { "at": 12.60, "sound": "uiSwitch", "volume": 0.22 },
+    { "at": 21.00, "sound": "ding",     "volume": 0.20 },
+    { "at": 27.10, "sound": "whoosh",   "volume": 0.20 },
+    { "at": 33.50, "sound": "pageTurn", "volume": 0.28 },
+    { "at": 43.30, "sound": "ding",     "volume": 0.22 },
+    { "at": 52.90, "sound": "uiSwitch", "volume": 0.20 },
+    { "at": 67.30, "sound": "pageTurn", "volume": 0.28 }
+  ]
+}
