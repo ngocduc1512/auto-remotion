@@ -1,0 +1,101 @@
+{
+  "id": "respect",
+  "title": "Giỏi mà vẫn trắc trở",
+  "durationSec": 67,
+  "fps": 30,
+  "format": "narrative",
+  "themePreset": "morning",
+
+  "voice": { "file": "respect-voice.m4a", "durationSec": 63.20 },
+  "bgm": { "file": "bgm/lofi-motivational.mp3", "volume": 0.08, "fadeSec": 1.5 },
+
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#8b5a3c", "accent": "#f8f1e3", "motif": "❤" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nay nói về",
+    "hook": "GIỎI MÀ VẪN TRẮC TRỞ",
+    "subhook": "Học giỏi nhất trường — giờ vẫn loay hoay.",
+    "badge": "SÁCH HAY · 63s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+
+  "styleBible": {
+    "protagonist": "the same young Vietnamese man in his late 20s, warm morning light on his face, wearing a plain cream or terracotta button-down or knit sweater — appears in every scene as our recurring narrator; distinct from other episodes' protagonists by his warmer clothing and gentler expression",
+    "style": "warm morning-light illustration, cream and terracotta palette, painterly soft-focus grain, cinematic composition with negative space, subtle vignette",
+    "avoid": "no photorealism, no text/letters/logos in image, no 3D render, no harsh shadows, no cartoonish exaggeration"
+  },
+  "imageStyle": "warm morning-light illustration, cream and terracotta palette, painterly grain, 9:16 vertical, no text",
+
+  "captions": [
+    { "from": 0.07,  "to": 2.72,  "text": "Hồi đi học, lớp tôi có một anh giỏi nhất trường.", "emphasis": "giỏi nhất trường", "size": "subtitle", "align": "top" },
+    { "from": 2.96,  "to": 4.00,  "text": "Cái gì cũng nhất.",                                 "emphasis": "nhất",             "size": "title",    "align": "center" },
+    { "from": 4.19,  "to": 7.12,  "text": "Ai cũng bảo sau này kiểu gì cũng làm ông này bà nọ.", "emphasis": "ông này bà nọ",   "size": "subtitle", "align": "top" },
+
+    { "from": 7.97,  "to": 9.28,  "text": "Vậy mà giờ gặp lại...",                              "size": "title",    "align": "center" },
+    { "from": 9.32,  "to": 11.12, "text": "anh vẫn đang chật vật, loay hoay.",                  "emphasis": "loay hoay",       "size": "heading",  "align": "top" },
+
+    { "from": 11.60, "to": 12.64, "text": "Giỏi thì giỏi thật.",                                "emphasis": "giỏi",             "size": "title",    "align": "center" },
+    { "from": 12.73, "to": 15.28, "text": "Nhưng mở miệng ra là làm người ta phật lòng.",       "emphasis": "phật lòng",       "size": "subtitle", "align": "top" },
+    { "from": 15.56, "to": 18.00, "text": "Góp ý một câu là đỏ mặt tía tai.",                   "emphasis": "đỏ mặt tía tai",  "size": "heading",  "align": "bottom" },
+
+    { "from": 18.76, "to": 20.96, "text": "Dần dần, chẳng ai muốn ngồi cạnh anh nữa.",           "emphasis": "chẳng ai",        "size": "heading",  "align": "top" },
+
+    { "from": 21.33, "to": 24.00, "text": "Trong khi thằng bạn ngày xưa học dốt nhất đám...",   "emphasis": "học dốt nhất",    "size": "subtitle", "align": "bottom" },
+    { "from": 24.04, "to": 26.80, "text": "giờ làm ăn khấm khá, đi đâu cũng có người quý.",     "emphasis": "người quý",       "size": "subtitle", "align": "top" },
+
+    { "from": 27.89, "to": 28.64, "text": "Bạn thấy quen không?",                                "size": "title",    "align": "center" },
+    { "from": 28.84, "to": 31.92, "text": "Cái kiểu người thông minh mà đường đời cứ trắc trở ấy.", "emphasis": "trắc trở",     "size": "subtitle", "align": "top" },
+
+    { "from": 32.32, "to": 37.80, "text": "Tôi ngộ ra một điều: cái đầu thông minh giúp bạn được người ta nhận vào.", "emphasis": "nhận vào", "size": "subtitle", "align": "bottom" },
+    { "from": 37.86, "to": 40.00, "text": "Nhưng cách bạn đối xử với người khác...",             "emphasis": "đối xử",          "size": "heading",  "align": "top" },
+    { "from": 40.04, "to": 41.84, "text": "mới quyết định bạn đi được bao xa.",                  "emphasis": "đi được bao xa",  "size": "heading",  "align": "bottom" },
+
+    { "from": 42.48, "to": 45.44, "text": "Vì sống ở đời, có phải làm bài thi một mình đâu.",    "emphasis": "một mình",        "size": "subtitle", "align": "top" },
+    { "from": 45.71, "to": 49.84, "text": "Nó là chuyện mỗi ngày bạn hiểu lòng mình, rồi hiểu lòng người ta.", "emphasis": "hiểu lòng", "size": "subtitle", "align": "bottom" },
+
+    { "from": 50.55, "to": 52.00, "text": "Nên đừng chỉ lo học cho giỏi.",                       "emphasis": "chỉ lo học",      "size": "heading",  "align": "top" },
+    { "from": 52.12, "to": 55.60, "text": "Hãy để ý xem người bên cạnh đang nghĩ gì, đang cần gì.", "emphasis": "để ý",         "size": "subtitle", "align": "bottom" },
+
+    { "from": 56.36, "to": 58.64, "text": "Giỏi giang thì khiến người ta NỂ bạn.",               "emphasis": "NỂ",              "size": "heading",  "align": "top" },
+    { "from": 59.39, "to": 60.96, "text": "Nhưng biết đối nhân xử thế...",                       "emphasis": "đối nhân xử thế", "size": "heading",  "align": "bottom" },
+    { "from": 61.00, "to": 63.20, "text": "mới khiến người ta muốn Ở LẠI bên bạn.",              "emphasis": "Ở LẠI",           "size": "heading",  "align": "center" }
+  ],
+
+  "scenes": [
+    { "type": "imageScene", "from": 0.00,  "to": 7.90,  "prompt": "The same young Vietnamese man in his late 20s, warm morning light on his face, plain cream button-down, standing in a sun-drenched Vietnamese classroom facing away toward a chalkboard covered in equations, textbooks stacked on his desk, warm cream and terracotta palette, painterly grain",  "kenBurns": "zoomIn",   "overlay": "dark", "seed": 400 },
+    { "type": "imageScene", "from": 7.90,  "to": 18.60, "prompt": "The same young Vietnamese man in his late 20s, warm morning light on his face, plain cream button-down, standing in a modern open-plan office facing a small group of colleagues who look away or check their phones, his mouth open mid-sentence, an awkward flush on his cheeks, warm cream and terracotta palette, painterly grain", "kenBurns": "panRight", "overlay": "dark", "seed": 410 },
+    { "type": "imageScene", "from": 18.60, "to": 27.60, "prompt": "The same young Vietnamese man in his late 20s, sitting alone at a long cafeteria table with untouched food while other tables further away are full of laughing people, warm morning sunlight from a large window casts his shadow across empty chairs, cream and terracotta palette, painterly grain, quiet loneliness",             "kenBurns": "zoomOut",  "overlay": "dark", "seed": 420 },
+    { "type": "imageScene", "from": 27.60, "to": 32.10, "prompt": "A different young Vietnamese man in his late 20s, wearing a plain terracotta shirt, laughing warmly in a bustling Vietnamese cafe surrounded by four or five friends leaning in, morning light streaming through, hands mid-gesture, cream and warm terracotta palette, painterly grain, sense of belonging",                       "kenBurns": "panLeft",  "overlay": "dark", "seed": 430 },
+    { "type": "book",       "from": 32.10, "to": 42.10 },
+    { "type": "imageScene", "from": 42.10, "to": 50.10, "prompt": "The same young Vietnamese man in his late 20s in cream button-down, sitting across a small wooden cafe table from an older friend, leaning in with a listening posture, both hands wrapped around a warm cup, morning sunlight softening the scene, cream and terracotta palette, painterly grain, thoughtful attention",         "kenBurns": "zoomIn",   "overlay": "dark", "seed": 440 },
+    { "type": "imageScene", "from": 50.10, "to": 56.10, "prompt": "The same young Vietnamese man in his late 20s in cream button-down, walking slowly beside another person along a sunlit Vietnamese street lined with warm-colored shophouses, both turning slightly toward each other as if mid-conversation, morning light casting long soft shadows, cream and terracotta palette, painterly grain", "kenBurns": "panRight", "overlay": "dark", "seed": 450 },
+    { "type": "imageScene", "from": 56.10, "to": 67.00, "prompt": "The same young Vietnamese man in his late 20s in cream button-down, laughing softly with three friends around a round wooden table in a warmly-lit Vietnamese home dining room, glasses raised, morning sunlight spilling in, cream and terracotta palette, painterly grain, sense of being valued and welcomed",              "kenBurns": "zoomOut",  "overlay": "light", "seed": 460 },
+    {
+      "type": "payoff",
+      "from": 56.36,
+      "to": 67.00,
+      "ctaAt": 63.30,
+      "leftCard":  { "label": "GIỎI GIANG",    "verb": "Nể",      "icon": "🧠", "color": "textMuted" },
+      "rightCard": { "label": "ĐỐI NHÂN XỬ THẾ", "verb": "Ở lại",  "icon": "❤",  "color": "primary"  }
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.22 },
+    { "at": 7.90,  "sound": "whoosh",   "volume": 0.20 },
+    { "at": 18.60, "sound": "uiSwitch", "volume": 0.22 },
+    { "at": 27.60, "sound": "ding",     "volume": 0.20 },
+    { "at": 32.10, "sound": "pageTurn", "volume": 0.28 },
+    { "at": 42.10, "sound": "whoosh",   "volume": 0.20 },
+    { "at": 50.10, "sound": "ding",     "volume": 0.22 },
+    { "at": 56.10, "sound": "uiSwitch", "volume": 0.20 },
+    { "at": 63.30, "sound": "pageTurn", "volume": 0.28 }
+  ]
+}
