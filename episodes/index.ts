@@ -23,6 +23,7 @@ import empathy from './empathy.json';
 import messenger from './messenger.json';
 import respect from './respect.json';
 import pause from './pause.json';
+import promise from './promise.json';
 
 export const EPISODES: Episode[] = [
   ei as Episode,
@@ -34,4 +35,5 @@ export const EPISODES: Episode[] = [
   messenger as Episode,
   respect as Episode,
   pause as Episode,
+  promise as Episode,
 ];

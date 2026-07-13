@@ -1,0 +1,98 @@
+{
+  "id": "promise",
+  "title": "Hồi đó tao học giỏi nhất mà",
+  "durationSec": 70,
+  "fps": 30,
+  "format": "narrative",
+  "themePreset": "library",
+
+  "voice": { "file": "promise-voice.m4a", "durationSec": 65.36 },
+  "bgm": { "file": "bgm/lofi-motivational.mp3", "volume": 0.07, "fadeSec": 1.5 },
+
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#3d5a80", "accent": "#f5ead6", "motif": "❤" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nay nói về",
+    "hook": "HỒI ĐÓ TAO GIỎI NHẤT MÀ",
+    "subhook": "Nó cười khẽ. Tôi không biết nói gì.",
+    "badge": "SÁCH HAY · 65s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+
+  "styleBible": {
+    "protagonist": "the same young Vietnamese man in his late 20s, wearing a plain charcoal-grey shirt, quiet observer expression — he is the narrator, not the two subjects of the story; appears in a few reflective moments only",
+    "style": "moody nostalgic illustration, deep navy and warm gold palette (library-at-dusk lighting), painterly soft-focus grain, cinematic composition with clear negative space, subtle vignette, slight film-photograph feel",
+    "avoid": "no photorealism, no text/letters/logos in image, no 3D render, no harsh shadows, no cartoonish exaggeration"
+  },
+  "imageStyle": "moody nostalgic illustration, deep navy and warm gold palette, painterly grain, 9:16 vertical, no text",
+
+  "captions": [
+    { "from": 0.07,  "to": 3.28,  "text": "Hồi cấp ba, thằng bạn ngồi cạnh tôi học giỏi nhất khối.", "emphasis": "giỏi nhất khối", "size": "subtitle", "align": "top" },
+    { "from": 3.39,  "to": 4.56,  "text": "Kỳ nào cũng đứng đầu.",                                    "emphasis": "đứng đầu",       "size": "title",    "align": "center" },
+    { "from": 4.75,  "to": 7.52,  "text": "Thầy cô cưng, ba mẹ nó nở mày nở mặt.",                    "emphasis": "nở mày nở mặt",  "size": "subtitle", "align": "top" },
+    { "from": 7.80,  "to": 11.36, "text": "Ai cũng nghĩ sau này nó làm ông này bà nọ.",               "emphasis": "ông này bà nọ",  "size": "subtitle", "align": "bottom" },
+
+    { "from": 11.68, "to": 15.72, "text": "Ra trường, nó vô một công ty ngon, lương cao hơn cả bọn.", "emphasis": "lương cao",     "size": "subtitle", "align": "top" },
+    { "from": 15.86, "to": 17.12, "text": "Mà được hơn năm thì nghỉ.",                                "emphasis": "nghỉ",           "size": "heading",  "align": "bottom" },
+    { "from": 17.31, "to": 18.80, "text": "Qua chỗ mới cũng nghỉ.",                                    "emphasis": "cũng nghỉ",     "size": "title",    "align": "center" },
+    { "from": 19.00, "to": 20.72, "text": "Cứ vài tháng lại đổi một chỗ.",                             "emphasis": "vài tháng",     "size": "heading",  "align": "bottom" },
+
+    { "from": 21.59, "to": 25.30, "text": "Có bữa đi nhậu, nó kể, giọng đầy bực:",                    "size": "subtitle", "align": "top" },
+    { "from": 25.30, "to": 28.80, "text": "sếp thì dốt, đồng nghiệp toàn thứ nịnh bợ, tụi nó ganh ghét vì nó giỏi.", "emphasis": "ganh ghét", "size": "subtitle", "align": "bottom" },
+    { "from": 28.96, "to": 30.80, "text": "Chỗ nào nó cũng kể y như vậy.",                             "emphasis": "y như vậy",     "size": "heading",  "align": "center" },
+
+    { "from": 31.70, "to": 36.16, "text": "Còn một thằng khác — hồi đó học làng nhàng, thi rớt lên rớt xuống.", "emphasis": "làng nhàng", "size": "subtitle", "align": "top" },
+    { "from": 36.35, "to": 39.44, "text": "Giờ nó mở cái xưởng gỗ nhỏ, nuôi hơn chục thợ.",           "emphasis": "xưởng gỗ",      "size": "subtitle", "align": "bottom" },
+    { "from": 39.72, "to": 40.96, "text": "Đám thợ thương nó lắm.",                                    "emphasis": "thương",        "size": "title",    "align": "center" },
+    { "from": 41.17, "to": 45.12, "text": "Ai kẹt tiền nó cho ứng trước, đứa nào ốm nó chạy tới thăm.", "emphasis": "chạy tới thăm", "size": "subtitle", "align": "bottom" },
+
+    { "from": 46.06, "to": 48.84, "text": "Tết rồi hai đứa tình cờ gặp nhau ở một đám cưới.",         "emphasis": "đám cưới",      "size": "subtitle", "align": "top" },
+    { "from": 48.93, "to": 52.84, "text": "Thằng học giỏi vẫn đang thất nghiệp, ngồi than thời buổi.", "emphasis": "thất nghiệp",   "size": "subtitle", "align": "bottom" },
+    { "from": 52.96, "to": 56.56, "text": "Thằng học dở thì điện thoại reo liên tục, thợ gọi hỏi công chuyện.", "emphasis": "reo liên tục", "size": "subtitle", "align": "top" },
+
+    { "from": 57.04, "to": 61.30, "text": "Lúc ra về, nó vỗ vai tôi, cười khẽ:",                      "size": "subtitle", "align": "bottom" },
+    { "from": 61.30, "to": 64.32, "text": "\"Ê, hồi đó tao học giỏi nhất mà ha.\"",                    "emphasis": "học giỏi nhất", "size": "heading",  "align": "center" },
+    { "from": 64.37, "to": 65.36, "text": "Tôi cười cười. Không biết nói gì.",                         "emphasis": "không biết",    "size": "title",    "align": "center" }
+  ],
+
+  "scenes": [
+    { "type": "imageScene", "from": 0.00,  "to": 7.60,  "prompt": "A high-school classroom at dusk in Vietnam, an empty top-of-class seat by the window with an open notebook of neat handwriting and a stack of medals beside it, warm gold light streaming through window blinds, deep navy shadows across empty desks, painterly grain, nostalgic memory feel", "kenBurns": "zoomIn",   "overlay": "dark", "seed": 600 },
+    { "type": "imageScene", "from": 7.60,  "to": 15.70, "prompt": "A proud Vietnamese teacher hands a certificate to a top-ranked high-school boy at a graduation-style ceremony, his parents smiling in the front row, warm gold stage light and confetti mid-air, deep navy audience shadows behind, painterly grain, moment of pride",     "kenBurns": "panRight", "overlay": "dark", "seed": 610 },
+    { "type": "imageScene", "from": 15.70, "to": 21.60, "prompt": "A young Vietnamese man in his mid-20s, plain white dress shirt, packing personal items into a cardboard box at his corporate office desk, an empty chair reflecting on a glass partition, warm gold desk lamp against deep navy office corridor, painterly grain, quiet resignation",  "kenBurns": "zoomOut",  "overlay": "dark", "seed": 620 },
+    { "type": "imageScene", "from": 21.60, "to": 31.00, "prompt": "A young Vietnamese man in his mid-20s in a plain white shirt, sitting slouched at a Vietnamese street beer stall at night, half-full glass in hand, brow furrowed as he complains, other patrons at nearby tables tuned out and looking down at phones, warm gold sodium streetlight, deep navy shadows around", "kenBurns": "panLeft", "overlay": "dark", "seed": 630 },
+    { "type": "imageScene", "from": 31.00, "to": 41.10, "prompt": "A different young Vietnamese man in his mid-20s, worn denim jacket sleeves rolled up, stands smiling in the doorway of a small wooden Vietnamese carpentry workshop lit by warm gold late-afternoon sun, a dozen carpenters at their benches turning to greet him, wood shavings on the floor, painterly grain, sense of belonging",       "kenBurns": "zoomIn", "overlay": "dark", "seed": 640 },
+    { "type": "imageScene", "from": 41.10, "to": 46.00, "prompt": "The same young Vietnamese man in worn denim jacket, sitting on a low stool next to an ailing older carpenter's cot, handing him a paper packet with quiet care, warm gold lantern light in a modest Vietnamese home, deep navy shadows in the background, painterly grain, humane concern",                                    "kenBurns": "panRight", "overlay": "dark", "seed": 650 },
+    { "type": "imageScene", "from": 46.00, "to": 57.00, "prompt": "Two Vietnamese men in their late 20s standing awkwardly at the edge of a Vietnamese wedding banquet — one in a slightly wrinkled office shirt looking tired and holding an empty glass, the other in a simple work shirt with phone pressed to ear mid-conversation, warm gold string-light banquet glow, deep navy edges, painterly grain, quiet contrast", "kenBurns": "zoomIn", "overlay": "dark", "seed": 660 },
+    { "type": "imageScene", "from": 57.00, "to": 65.50, "prompt": "Two silhouettes of Vietnamese men parting ways after a wedding, one placing a hand on the other's shoulder in the doorway of a lit banquet hall, warm gold light spilling from behind, cold navy Vietnamese street outside stretching away into deep shadow, painterly grain, quiet finality",                                    "kenBurns": "zoomOut", "overlay": "dark", "seed": 670 },
+    {
+      "type": "book",
+      "from": 65.50,
+      "to": 70.00
+    },
+    {
+      "type": "quote",
+      "from": 61.30,
+      "to": 68.00,
+      "quote": "Hồi đó tao học giỏi nhất mà ha.",
+      "attribution": "— Không biết nói gì."
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.22 },
+    { "at": 7.60,  "sound": "whoosh",   "volume": 0.18 },
+    { "at": 15.70, "sound": "uiSwitch", "volume": 0.20 },
+    { "at": 21.60, "sound": "ding",     "volume": 0.16 },
+    { "at": 31.00, "sound": "whoosh",   "volume": 0.20 },
+    { "at": 46.00, "sound": "pageTurn", "volume": 0.24 },
+    { "at": 57.00, "sound": "ding",     "volume": 0.20 },
+    { "at": 65.50, "sound": "pageTurn", "volume": 0.28 }
+  ]
+}
