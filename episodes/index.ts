@@ -24,6 +24,7 @@ import messenger from './messenger.json';
 import respect from './respect.json';
 import pause from './pause.json';
 import promise from './promise.json';
+import spill from './spill.json';
 
 export const EPISODES: Episode[] = [
   ei as Episode,
@@ -36,4 +37,5 @@ export const EPISODES: Episode[] = [
   respect as Episode,
   pause as Episode,
   promise as Episode,
+  spill as Episode,
 ];

@@ -1,0 +1,94 @@
+{
+  "id": "spill",
+  "title": "Ba có chuyện gì hả ba?",
+  "durationSec": 70,
+  "fps": 30,
+  "format": "narrative",
+  "themePreset": "morning",
+
+  "voice": { "file": "spill-voice.m4a", "durationSec": 66.48 },
+  "bgm": { "file": "bgm/lofi-motivational.mp3", "volume": 0.07, "fadeSec": 1.5 },
+
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#8b5a3c", "accent": "#f8f1e3", "motif": "❤" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nay nói về",
+    "hook": "BA CÓ CHUYỆN GÌ HẢ BA?",
+    "subhook": "Câu con hỏi đêm đó, tôi khóc không thành tiếng.",
+    "badge": "SÁCH HAY · 66s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+
+  "styleBible": {
+    "protagonist": "the same Vietnamese man in his late 30s, a father figure, wearing a plain earth-toned polo shirt or casual home clothes, tired eyes and slight stubble, appears in every scene as our recurring narrator; his features stay consistent across shots",
+    "style": "warm morning-light illustration, cream and terracotta palette with soft home-interior tones, painterly soft-focus grain, cinematic composition with clear negative space, subtle vignette, sense of intimate domestic scenes",
+    "avoid": "no photorealism, no text/letters/logos in image, no 3D render, no harsh shadows, no cartoonish exaggeration"
+  },
+  "imageStyle": "warm morning-light illustration, cream and terracotta palette, painterly grain, 9:16 vertical, no text",
+
+  "captions": [
+    { "from": 0.14,  "to": 1.84,  "text": "Có dạo tôi khó ở kinh khủng.",                       "emphasis": "khó ở",         "size": "heading",  "align": "top" },
+    { "from": 2.05,  "to": 3.44,  "text": "Về tới nhà là quạu.",                                 "emphasis": "quạu",           "size": "title",    "align": "center" },
+    { "from": 3.92,  "to": 6.40,  "text": "Vợ hỏi tối nay ăn gì, tôi gắt.",                       "emphasis": "gắt",            "size": "heading",  "align": "top" },
+    { "from": 6.51,  "to": 10.32, "text": "Con khoe bài được điểm mười, tôi ừ hử cho qua.",       "emphasis": "ừ hử",           "size": "subtitle", "align": "bottom" },
+    { "from": 10.62, "to": 14.24, "text": "Tôi đổ tại công việc áp lực, tại người ta làm tôi bực.", "emphasis": "đổ tại",       "size": "subtitle", "align": "top" },
+
+    { "from": 14.64, "to": 18.72, "text": "Một tối, thằng con đang chơi lỡ tay hất đổ ly nước.",   "emphasis": "đổ ly nước",     "size": "subtitle", "align": "bottom" },
+    { "from": 19.11, "to": 21.28, "text": "Có nhiêu đó thôi mà tôi quát nó một trận.",             "emphasis": "quát",           "size": "subtitle", "align": "top" },
+    { "from": 21.49, "to": 23.60, "text": "Nó khóc, chạy vô phòng đóng cửa.",                       "emphasis": "chạy vô phòng", "size": "heading",  "align": "bottom" },
+
+    { "from": 24.14, "to": 26.08, "text": "Vợ tôi lặng lẽ lấy khăn lau nước.",                     "emphasis": "lặng lẽ",        "size": "heading",  "align": "top" },
+    { "from": 26.22, "to": 29.60, "text": "Lau xong mới hỏi khẽ:",                                  "size": "subtitle", "align": "bottom" },
+    { "from": 29.66, "to": 32.80, "text": "\"Anh đang giận con... hay đang lo chuyện gì vậy?\"",   "emphasis": "lo chuyện gì",   "size": "heading",  "align": "center" },
+    { "from": 33.00, "to": 35.89, "text": "Tôi định cãi. Mà khựng lại, nói không ra lời.",          "emphasis": "khựng lại",     "size": "subtitle", "align": "bottom" },
+
+    { "from": 36.28, "to": 38.08, "text": "Tháng đó công ty đang cắt người.",                       "emphasis": "cắt người",      "size": "heading",  "align": "top" },
+    { "from": 38.22, "to": 39.60, "text": "Tôi sợ tới lượt mình.",                                   "emphasis": "sợ",             "size": "title",    "align": "center" },
+    { "from": 39.92, "to": 43.84, "text": "Sợ mất việc, sợ không lo nổi tiền nhà, tiền học cho con.", "emphasis": "mất việc",     "size": "subtitle", "align": "top" },
+
+    { "from": 44.12, "to": 45.76, "text": "Tôi có giận thằng nhỏ đâu.",                             "emphasis": "không giận",     "size": "heading",  "align": "bottom" },
+    { "from": 45.94, "to": 47.04, "text": "Tôi đang sợ.",                                            "emphasis": "sợ",             "size": "title",    "align": "center" },
+    { "from": 47.36, "to": 49.84, "text": "Sợ muốn chết mà không dám nói với ai.",                   "emphasis": "không dám nói",  "size": "heading",  "align": "bottom" },
+
+    { "from": 50.87, "to": 53.76, "text": "Tối đó tôi qua phòng, gõ cửa, xin lỗi con.",              "emphasis": "xin lỗi",        "size": "subtitle", "align": "top" },
+    { "from": 54.00, "to": 55.80, "text": "Nó nín khóc, ngước lên hỏi:",                             "size": "subtitle", "align": "bottom" },
+
+    { "from": 62.10, "to": 66.48, "text": "Kể xong, tôi thấy nhẹ cả người — như trút được cục đá đè trong ngực.", "emphasis": "trút được cục đá", "size": "subtitle", "align": "top" }
+  ],
+
+  "scenes": [
+    { "type": "imageScene", "from": 0.00,  "to": 6.30,  "prompt": "The same Vietnamese man in his late 30s in an earth-toned polo shirt, entering a warm-lit Vietnamese home doorway at dusk with a tense jaw and dropped shoulders, briefcase in hand, wife visible in soft focus behind him in the kitchen, cream and terracotta home interior, painterly grain, quiet domestic tension", "kenBurns": "zoomIn",   "overlay": "dark", "seed": 700 },
+    { "type": "imageScene", "from": 6.30,  "to": 14.60, "prompt": "The same Vietnamese man in his late 30s in an earth-toned polo, sitting at a warm-lit family dining table with a child holding up a school notebook proudly, but the father's eyes are elsewhere, staring past his child at nothing, cream and terracotta home tones, painterly grain, quiet emotional distance",           "kenBurns": "panRight", "overlay": "dark", "seed": 710 },
+    { "type": "imageScene", "from": 14.60, "to": 24.10, "prompt": "The same Vietnamese man in his late 30s in an earth-toned polo, mid-outburst at a family dinner table, one hand slapping the table beside an overturned water glass slowly spreading across the wood, the child recoiling backward with tears starting, cream and terracotta tones, painterly grain, sudden domestic rupture", "kenBurns": "zoomIn",   "overlay": "dark", "seed": 720 },
+    { "type": "imageScene", "from": 24.10, "to": 33.00, "prompt": "The wife, mid-30s Vietnamese woman in a soft cream house dress, kneeling by the dinner table quietly mopping up spilled water with a folded cloth, her expression not accusatory but gently searching as she looks up at the husband (out of frame), warm evening light from a single pendant, painterly grain, gentle steadiness",  "kenBurns": "panLeft",  "overlay": "dark", "seed": 730 },
+    { "type": "imageScene", "from": 33.00, "to": 44.00, "prompt": "The same Vietnamese man in his late 30s in an earth-toned polo, sitting alone on the edge of the family bed at night, hands clasped, staring at nothing, a small desk lamp casting warm gold, deep home shadows around, painterly grain, private admission of fear and financial dread",                                       "kenBurns": "zoomOut",  "overlay": "dark", "seed": 740 },
+    { "type": "imageScene", "from": 44.00, "to": 50.70, "prompt": "The same Vietnamese man in his late 30s in an earth-toned polo, standing hesitant in a dim hallway of a Vietnamese home outside a closed child's bedroom door with a small drawing taped to it, hand raised mid-knock, warm gold light spilling under the door onto his shoes, painterly grain, moment of resolve",              "kenBurns": "panRight", "overlay": "dark", "seed": 750 },
+    { "type": "imageScene", "from": 50.70, "to": 55.90, "prompt": "The same Vietnamese man in his late 30s in an earth-toned polo, kneeling by a child's bedside in a warmly lit small bedroom, the child sitting up with red eyes but no longer crying, night-light in the corner casting soft cream tones, painterly grain, moment of tender apology",                                             "kenBurns": "zoomIn",   "overlay": "dark", "seed": 760 },
+    { "type": "imageScene", "from": 55.90, "to": 70.00, "prompt": "The same Vietnamese man in his late 30s and his young son sitting side-by-side on the child's small bed, the father telling a story with soft open hands, the child listening with wide attentive eyes, a plush toy between them, warm morning-into-dawn light through the window, cream and terracotta tones, painterly grain, catharsis and reconnection", "kenBurns": "zoomOut", "overlay": "light", "seed": 770 },
+    {
+      "type": "quote",
+      "from": 55.90,
+      "to": 62.00,
+      "quote": "Ba có chuyện gì hả ba?",
+      "attribution": "Con tôi. Đêm đó."
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.22 },
+    { "at": 6.30,  "sound": "whoosh",   "volume": 0.16 },
+    { "at": 14.60, "sound": "uiSwitch", "volume": 0.18 },
+    { "at": 24.10, "sound": "ding",     "volume": 0.16 },
+    { "at": 33.00, "sound": "whoosh",   "volume": 0.16 },
+    { "at": 44.00, "sound": "uiSwitch", "volume": 0.16 },
+    { "at": 50.70, "sound": "ding",     "volume": 0.18 },
+    { "at": 55.90, "sound": "pageTurn", "volume": 0.24 }
+  ]
+}
