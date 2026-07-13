@@ -1,7 +1,7 @@
 {
   "id": "promise",
   "title": "Hồi đó tao học giỏi nhất mà",
-  "durationSec": 70,
+  "durationSec": 68,
   "fps": 30,
   "format": "narrative",
   "themePreset": "library",
@@ -68,12 +68,7 @@
     { "type": "imageScene", "from": 31.00, "to": 41.10, "prompt": "A different young Vietnamese man in his mid-20s, worn denim jacket sleeves rolled up, stands smiling in the doorway of a small wooden Vietnamese carpentry workshop lit by warm gold late-afternoon sun, a dozen carpenters at their benches turning to greet him, wood shavings on the floor, painterly grain, sense of belonging",       "kenBurns": "zoomIn", "overlay": "dark", "seed": 640 },
     { "type": "imageScene", "from": 41.10, "to": 46.00, "prompt": "The same young Vietnamese man in worn denim jacket, sitting on a low stool next to an ailing older carpenter's cot, handing him a paper packet with quiet care, warm gold lantern light in a modest Vietnamese home, deep navy shadows in the background, painterly grain, humane concern",                                    "kenBurns": "panRight", "overlay": "dark", "seed": 650 },
     { "type": "imageScene", "from": 46.00, "to": 57.00, "prompt": "Two Vietnamese men in their late 20s standing awkwardly at the edge of a Vietnamese wedding banquet — one in a slightly wrinkled office shirt looking tired and holding an empty glass, the other in a simple work shirt with phone pressed to ear mid-conversation, warm gold string-light banquet glow, deep navy edges, painterly grain, quiet contrast", "kenBurns": "zoomIn", "overlay": "dark", "seed": 660 },
-    { "type": "imageScene", "from": 57.00, "to": 65.50, "prompt": "Two silhouettes of Vietnamese men parting ways after a wedding, one placing a hand on the other's shoulder in the doorway of a lit banquet hall, warm gold light spilling from behind, cold navy Vietnamese street outside stretching away into deep shadow, painterly grain, quiet finality",                                    "kenBurns": "zoomOut", "overlay": "dark", "seed": 670 },
-    {
-      "type": "book",
-      "from": 65.50,
-      "to": 70.00
-    },
+    { "type": "imageScene", "from": 57.00, "to": 68.00, "prompt": "Two silhouettes of Vietnamese men parting ways after a wedding, one placing a hand on the other's shoulder in the doorway of a lit banquet hall, warm gold light spilling from behind, cold navy Vietnamese street outside stretching away into deep shadow, painterly grain, quiet finality",                                    "kenBurns": "zoomOut", "overlay": "dark", "seed": 670 },
     {
       "type": "quote",
       "from": 61.30,
@@ -90,7 +85,6 @@
     { "at": 21.60, "sound": "ding",     "volume": 0.16 },
     { "at": 31.00, "sound": "whoosh",   "volume": 0.20 },
     { "at": 46.00, "sound": "pageTurn", "volume": 0.24 },
-    { "at": 57.00, "sound": "ding",     "volume": 0.20 },
-    { "at": 65.50, "sound": "pageTurn", "volume": 0.28 }
+    { "at": 57.00, "sound": "ding",     "volume": 0.20 }
   ]
 }
