@@ -57,9 +57,7 @@
     { "from": 48.93, "to": 52.84, "text": "Thằng học giỏi vẫn đang thất nghiệp, ngồi than thời buổi.", "emphasis": "thất nghiệp",   "size": "subtitle", "align": "bottom" },
     { "from": 52.96, "to": 56.56, "text": "Thằng học dở thì điện thoại reo liên tục, thợ gọi hỏi công chuyện.", "emphasis": "reo liên tục", "size": "subtitle", "align": "top" },
 
-    { "from": 57.04, "to": 61.30, "text": "Lúc ra về, nó vỗ vai tôi, cười khẽ:",                      "size": "subtitle", "align": "bottom" },
-    { "from": 61.30, "to": 64.32, "text": "\"Ê, hồi đó tao học giỏi nhất mà ha.\"",                    "emphasis": "học giỏi nhất", "size": "heading",  "align": "center" },
-    { "from": 64.37, "to": 65.36, "text": "Tôi cười cười. Không biết nói gì.",                         "emphasis": "không biết",    "size": "title",    "align": "center" }
+    { "from": 57.04, "to": 61.20, "text": "Lúc ra về, nó vỗ vai tôi, cười khẽ:",                      "size": "subtitle", "align": "bottom" }
   ],
 
   "scenes": [
@@ -81,7 +79,7 @@
       "from": 61.30,
       "to": 68.00,
       "quote": "Hồi đó tao học giỏi nhất mà ha.",
-      "attribution": "— Không biết nói gì."
+      "attribution": "Không biết nói gì."
     }
   ],
 
