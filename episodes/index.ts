@@ -25,6 +25,7 @@ import respect from './respect.json';
 import pause from './pause.json';
 import promise from './promise.json';
 import spill from './spill.json';
+import uncle from './uncle.json';
 
 export const EPISODES: Episode[] = [
   ei as Episode,
@@ -38,4 +39,5 @@ export const EPISODES: Episode[] = [
   pause as Episode,
   promise as Episode,
   spill as Episode,
+  uncle as Episode,
 ];

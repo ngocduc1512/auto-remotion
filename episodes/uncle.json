@@ -1,0 +1,95 @@
+{
+  "id": "uncle",
+  "title": "Chú có gì sai không?",
+  "durationSec": 76,
+  "fps": 30,
+  "format": "narrative",
+  "themePreset": "library",
+
+  "voice": { "file": "uncle-voice.m4a", "durationSec": 70.80 },
+  "bgm": { "file": "bgm/lofi-motivational.mp3", "volume": 0.07, "fadeSec": 1.5 },
+
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#3d5a80", "accent": "#f5ead6", "motif": "❤" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nay nói về",
+    "hook": "CHÚ CÓ GÌ SAI KHÔNG?",
+    "subhook": "Tôi ngồi im. Vì chú đúng thiệt mà.",
+    "badge": "SÁCH HAY · 71s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+
+  "styleBible": {
+    "protagonist": "the same Vietnamese uncle in his early 60s, thin build, salt-and-pepper hair, plain brown or muted-blue button-down shirt, glasses, an air of quiet authority; appears in most scenes as the story's subject — the narrator is a younger nephew observing from the side",
+    "style": "moody nostalgic illustration, deep navy and warm gold palette (Vietnamese-home-at-dusk lighting), painterly soft-focus grain, cinematic composition with clear negative space, subtle vignette",
+    "avoid": "no photorealism, no text/letters/logos in image, no 3D render, no harsh shadows, no cartoonish exaggeration"
+  },
+  "imageStyle": "moody Vietnamese-home-at-dusk illustration, deep navy and warm gold palette, painterly grain, 9:16 vertical, no text",
+
+  "captions": [
+    { "from": 0.07,  "to": 2.96,  "text": "Chú tôi á, là kiểu người cãi không bao giờ chịu thua.", "emphasis": "không bao giờ chịu thua", "size": "subtitle", "align": "top" },
+    { "from": 3.44,  "to": 4.48,  "text": "Cái gì chú cũng biết.",                                  "emphasis": "cũng biết",      "size": "title",    "align": "center" },
+    { "from": 4.64,  "to": 5.84,  "text": "Cãi gì chú cũng thắng.",                                  "emphasis": "cũng thắng",     "size": "title",    "align": "center" },
+
+    { "from": 6.48,  "to": 10.48, "text": "Họ hàng ngồi ăn cơm, ai lỡ nói sai là chú sửa liền.",     "emphasis": "sửa liền",       "size": "subtitle", "align": "bottom" },
+    { "from": 10.80, "to": 13.08, "text": "Sửa tới chừng nào người ta thôi cãi mới yên.",             "emphasis": "thôi cãi",       "size": "subtitle", "align": "top" },
+
+    { "from": 13.47, "to": 17.68, "text": "Có bữa thím đi chợ về, than dạo này thịt cá gì cũng mắc.", "emphasis": "cũng mắc",      "size": "subtitle", "align": "bottom" },
+    { "from": 17.92, "to": 20.16, "text": "Chú gạt ngang: \"Bà thì biết gì.",                          "emphasis": "biết gì",        "size": "heading",  "align": "top" },
+    { "from": 20.26, "to": 22.60, "text": "Tại bà không biết chỗ mua thôi.\"",                         "emphasis": "chỗ mua",        "size": "heading",  "align": "bottom" },
+    { "from": 22.70, "to": 24.01, "text": "Thím im, xuống bếp.",                                       "emphasis": "im, xuống bếp",  "size": "title",    "align": "center" },
+
+    { "from": 24.85, "to": 27.37, "text": "Rồi mấy năm nay nhà chú tự dưng lạ lắm.",                   "emphasis": "lạ lắm",         "size": "subtitle", "align": "top" },
+    { "from": 27.58, "to": 29.85, "text": "Thím đi làm về là vô phòng đóng cửa.",                       "emphasis": "đóng cửa",       "size": "heading",  "align": "bottom" },
+    { "from": 30.05, "to": 35.13, "text": "Hai đứa con lớn lên đứa nào cũng kiếm cớ đi xa.",           "emphasis": "đi xa",          "size": "subtitle", "align": "top" },
+    { "from": 35.45, "to": 40.73, "text": "Về thì ngồi bấm điện thoại, chẳng buồn kể gì với ba.",      "emphasis": "chẳng buồn kể",  "size": "subtitle", "align": "bottom" },
+
+    { "from": 41.53, "to": 44.25, "text": "Giỗ năm ngoái, chú uống hơi quá chén.",                     "emphasis": "quá chén",       "size": "heading",  "align": "top" },
+    { "from": 44.49, "to": 48.73, "text": "Chú quay qua tôi hỏi nhỏ: \"Mày coi tao có gì sai không?\"", "emphasis": "gì sai không",  "size": "subtitle", "align": "center" },
+    { "from": 48.93, "to": 51.25, "text": "\"Tao lo cho tụi nó đủ hết mà.",                            "emphasis": "đủ hết",         "size": "heading",  "align": "top" },
+    { "from": 51.34, "to": 55.05, "text": "Sao đứa nào cũng lơ tao vậy?\"",                            "emphasis": "lơ tao",         "size": "heading",  "align": "bottom" },
+
+    { "from": 55.09, "to": 56.21, "text": "Tôi ngồi im. Không biết trả lời sao.",                       "emphasis": "không biết",     "size": "subtitle", "align": "center" },
+    { "from": 56.47, "to": 60.81, "text": "Tại chú có sai đâu. Chú đúng thiệt mà — đúng từng chuyện.",  "emphasis": "đúng thiệt",     "size": "subtitle", "align": "center" },
+
+    { "from": 61.82, "to": 66.01, "text": "Chỉ là hồi đó, thím đâu cần ai chỉ cho biết mua thịt chỗ nào.", "emphasis": "đâu cần",     "size": "subtitle", "align": "top" },
+    { "from": 66.14, "to": 69.85, "text": "Thím chỉ cần một người chịu ngồi nghe thím than một câu...",    "emphasis": "ngồi nghe",    "size": "subtitle", "align": "bottom" },
+    { "from": 69.91, "to": 70.81, "text": "cho nhẹ lòng.",                                                  "emphasis": "nhẹ lòng",     "size": "title",    "align": "center" }
+  ],
+
+  "scenes": [
+    { "type": "imageScene", "from": 0.00,  "to": 6.40,  "prompt": "The same Vietnamese uncle in his early 60s in a muted-blue button-down and glasses, at the head of a family dinner table in a warm-lit Vietnamese home, index finger raised mid-correction, three relatives around the table looking down at their bowls in resigned silence, warm gold pendant light against deep navy shadows behind, painterly grain",     "kenBurns": "zoomIn",   "overlay": "dark", "seed": 800 },
+    { "type": "imageScene", "from": 6.40,  "to": 13.30, "prompt": "The same Vietnamese uncle at a Vietnamese family gathering, still gesturing to make a point while other relatives around the crowded table have quietly turned to their food, no one meeting his eyes, warm gold overhead pendant light, deep navy wall shadows, painterly grain, tone of gradual isolation despite being surrounded",                    "kenBurns": "panRight", "overlay": "dark", "seed": 810 },
+    { "type": "imageScene", "from": 13.30, "to": 22.60, "prompt": "A middle-aged Vietnamese woman in a soft house tunic standing in a Vietnamese kitchen doorway holding a market bag of vegetables, her face falling mid-sentence as the uncle waves her off from the dining table beyond, warm gold interior light spilling from the kitchen into dim shadowed living room, painterly grain, moment of quiet dismissal",       "kenBurns": "zoomIn",   "overlay": "dark", "seed": 820 },
+    { "type": "imageScene", "from": 22.60, "to": 30.00, "prompt": "The same Vietnamese woman in a soft house tunic, back to the viewer at a small kitchen counter chopping vegetables with slow deliberate motions, single warm gold ceiling bulb, deep navy Vietnamese kitchen shadows, half-eaten dinner visible in the background room, painterly grain, quiet retreat into work",                                          "kenBurns": "panLeft",  "overlay": "dark", "seed": 830 },
+    { "type": "imageScene", "from": 30.00, "to": 40.80, "prompt": "The same Vietnamese uncle sitting alone in his living room at night, TV glowing but muted, a closed bedroom door visible down the hallway with light seeping under it, an empty son's bedroom off to the side, warm gold TV light on his face against deep navy stillness, painterly grain, house that has hollowed out with time",                       "kenBurns": "zoomOut",  "overlay": "dark", "seed": 840 },
+    { "type": "imageScene", "from": 40.80, "to": 55.10, "prompt": "The same Vietnamese uncle at a Vietnamese death-anniversary meal (giỗ) with incense and food offerings on an altar in the background, holding a small glass of rice liquor and leaning toward a nephew (partially in frame from behind, listener perspective), the uncle's face soft and vulnerable and slightly tipsy for the first time, warm gold altar candles and deep navy family-room shadows, painterly grain",  "kenBurns": "zoomIn",   "overlay": "dark", "seed": 850 },
+    { "type": "imageScene", "from": 55.10, "to": 66.00, "prompt": "The same Vietnamese uncle sitting alone at a family altar after a giỗ meal, glass of rice liquor half-drunk beside him, hands folded in his lap, staring at a wall of framed family photographs that includes wife and grown children who are no longer in the room, warm gold altar light on his face, deep navy shadows behind, painterly grain, dawning quiet realization",                    "kenBurns": "panRight", "overlay": "dark", "seed": 860 },
+    { "type": "imageScene", "from": 66.00, "to": 76.00, "prompt": "A Vietnamese kitchen at dusk with the same middle-aged Vietnamese wife in the frame long ago, holding market bags and looking to speak to someone off-frame, warm gold late-afternoon light on her hopeful face, deep navy shadows around, painterly grain, a memory of the moment where being heard could have changed everything",                            "kenBurns": "zoomOut",  "overlay": "dark", "seed": 870 },
+    {
+      "type": "quote",
+      "from": 71.00,
+      "to": 76.00,
+      "quote": "Mày coi tao có gì sai không?",
+      "attribution": "Chú tôi. Giỗ năm ngoái."
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.22 },
+    { "at": 6.40,  "sound": "whoosh",   "volume": 0.16 },
+    { "at": 13.30, "sound": "uiSwitch", "volume": 0.18 },
+    { "at": 22.60, "sound": "ding",     "volume": 0.14 },
+    { "at": 30.00, "sound": "whoosh",   "volume": 0.16 },
+    { "at": 40.80, "sound": "uiSwitch", "volume": 0.16 },
+    { "at": 55.10, "sound": "ding",     "volume": 0.18 },
+    { "at": 66.00, "sound": "pageTurn", "volume": 0.22 }
+  ]
+}
