@@ -1,0 +1,113 @@
+{
+  "id": "hijack",
+  "title": "Cảm xúc cướp sóng lý trí",
+  "durationSec": 94,
+  "fps": 30,
+  "format": "narrative",
+  "themePreset": "morning",
+
+  "voice": { "file": "hijack-voice.m4a", "durationSec": 89.76 },
+  "bgm": { "file": "bgm/lofi-motivational.mp3", "volume": 0.07, "fadeSec": 1.5 },
+
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#8b5a3c", "accent": "#f8f1e3", "motif": "⚡" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nay nói về",
+    "hook": "CƯỚP SÓNG LÝ TRÍ",
+    "subhook": "Mười mấy năm đổ sông vì mấy giây không kìm được.",
+    "badge": "SÁCH HAY · 90s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+
+  "styleBible": {
+    "protagonist": "the same Vietnamese man in his mid-30s, plain earth-toned button-down shirt or knit sweater, tousled hair, an office-worker air; appears in every scene — first at a corporate meeting table, then alone, then reading — his features stay consistent across shots",
+    "style": "warm morning-light illustration, cream and terracotta palette with muted office-interior tones, painterly soft-focus grain, cinematic composition with clear negative space, subtle vignette",
+    "avoid": "no photorealism, no text/letters/logos in image, no 3D render, no harsh shadows, no cartoonish exaggeration"
+  },
+  "imageStyle": "warm morning-light illustration, cream and terracotta palette, painterly grain, 9:16 vertical, no text",
+
+  "captions": [
+    { "from": 0.20,  "to": 3.20,  "text": "Tôi có ông anh đồng nghiệp, hiền khô, ai cũng quý.", "emphasis": "hiền khô",       "size": "subtitle", "align": "top" },
+    { "from": 3.39,  "to": 6.60,  "text": "Nhưng hễ đụng chuyện nóng lên là ổng không kìm được.", "emphasis": "không kìm được", "size": "subtitle", "align": "bottom" },
+
+    { "from": 6.82,  "to": 10.80, "text": "Một bữa họp, sếp lỡ chê dự án của ổng trước cả phòng.", "emphasis": "chê dự án",     "size": "subtitle", "align": "top" },
+    { "from": 10.94, "to": 12.40, "text": "Mặt ổng đỏ tía tai.",                                   "emphasis": "đỏ tía tai",    "size": "title",    "align": "center" },
+    { "from": 12.97, "to": 16.81, "text": "Ổng đứng phắt dậy, đập bàn, nói một tràng rồi bỏ ra.",  "emphasis": "đập bàn",        "size": "subtitle", "align": "top" },
+
+    { "from": 17.51, "to": 20.61, "text": "Ba phút sau ổng quay vô, mặt tái mét.",                 "emphasis": "tái mét",        "size": "heading",  "align": "bottom" },
+    { "from": 20.67, "to": 21.61, "text": "Biết mình lỡ rồi.",                                     "emphasis": "lỡ",             "size": "title",    "align": "center" },
+    { "from": 22.09, "to": 24.49, "text": "Lời nói ra rồi, làm sao rút lại.",                       "emphasis": "rút lại",        "size": "heading",  "align": "top" },
+
+    { "from": 24.81, "to": 26.33, "text": "Tháng sau ổng nghỉ việc.",                              "emphasis": "nghỉ việc",      "size": "title",    "align": "center" },
+    { "from": 26.42, "to": 27.69, "text": "Không phải bị đuổi.",                                    "size": "heading",  "align": "bottom" },
+    { "from": 27.79, "to": 30.45, "text": "Tại ổng ngại, không dám nhìn mặt ai nữa.",               "emphasis": "không dám nhìn", "size": "subtitle", "align": "top" },
+
+    { "from": 30.85, "to": 34.01, "text": "Mười mấy năm gắn bó, đổ sông đổ biển...",                "emphasis": "đổ sông đổ biển", "size": "heading", "align": "bottom" },
+    { "from": 34.05, "to": 35.69, "text": "chỉ vì mấy giây không giữ được mình.",                    "emphasis": "mấy giây",       "size": "heading",  "align": "top" },
+
+    { "from": 36.38, "to": 40.09, "text": "Chuyện này làm tôi nhớ cuốn Trí Tuệ Cảm Xúc của Daniel Goleman.", "emphasis": "Trí Tuệ Cảm Xúc", "size": "subtitle", "align": "bottom" },
+    { "from": 40.21, "to": 44.50, "text": "Trong sách có một ý đọc xong nhớ mãi:",                   "emphasis": "nhớ mãi",        "size": "subtitle", "align": "top" },
+    { "from": 44.50, "to": 47.61, "text": "Lúc mình quá tức, cảm xúc nhảy lên giành tay lái...",     "emphasis": "giành tay lái",  "size": "subtitle", "align": "bottom" },
+    { "from": 47.63, "to": 49.21, "text": "trước cả khi cái đầu kịp nghĩ.",                          "emphasis": "trước cả",       "size": "heading",  "align": "top" },
+    { "from": 49.57, "to": 53.33, "text": "Goleman gọi đó là lúc cảm xúc \"cướp sóng\" lý trí.",     "emphasis": "cướp sóng",      "size": "heading",  "align": "center" },
+
+    { "from": 53.50, "to": 56.09, "text": "Người bình tĩnh không phải người không biết giận.",       "emphasis": "không phải",     "size": "subtitle", "align": "top" },
+    { "from": 56.30, "to": 59.29, "text": "Họ luyện được cách kéo dài cái khoảng vài giây đó ra.",   "emphasis": "vài giây",       "size": "subtitle", "align": "bottom" },
+    { "from": 59.61, "to": 60.89, "text": "Đủ để thở một hơi.",                                       "emphasis": "thở",            "size": "title",    "align": "center" },
+    { "from": 61.13, "to": 62.57, "text": "Đủ để cơn nóng hạ xuống.",                                "emphasis": "hạ xuống",       "size": "heading",  "align": "top" },
+    { "from": 62.77, "to": 64.08, "text": "Rồi mới mở miệng.",                                        "emphasis": "mở miệng",       "size": "title",    "align": "center" },
+
+    { "from": 64.41, "to": 67.29, "text": "Cuốn sách chỉ cho mình từng bước để làm được chuyện đó.", "emphasis": "từng bước",      "size": "subtitle", "align": "top" },
+    { "from": 67.43, "to": 70.29, "text": "Nhận ra cơn giận ngay khi nó mới nhen.",                   "emphasis": "nhận ra",        "size": "heading",  "align": "bottom" },
+    { "from": 70.34, "to": 71.77, "text": "Gọi đúng tên nó.",                                          "emphasis": "gọi đúng tên",   "size": "title",    "align": "center" },
+    { "from": 71.83, "to": 74.65, "text": "Cách để nó đi qua mà không phải hối hận.",                 "emphasis": "không hối hận",  "size": "heading",  "align": "top" },
+
+    { "from": 75.43, "to": 78.49, "text": "Nếu bạn cũng từng lỡ lời rồi ngồi ân hận...",              "emphasis": "ân hận",         "size": "subtitle", "align": "bottom" },
+    { "from": 78.53, "to": 80.49, "text": "thì tìm đọc thử Trí Tuệ Cảm Xúc đi.",                      "emphasis": "đọc thử",        "size": "heading",  "align": "top" },
+
+    { "from": 81.02, "to": 83.05, "text": "Nó không dạy bạn nuốt cơn giận vào trong.",                 "emphasis": "không dạy nuốt", "size": "heading",  "align": "top" },
+    { "from": 83.50, "to": 86.09, "text": "Nó dạy bạn hiểu nó, làm chủ nó...",                         "emphasis": "làm chủ",        "size": "heading",  "align": "bottom" },
+    { "from": 86.11, "to": 89.77, "text": "để lần sau, không lấy đi của bạn thêm thứ gì nữa.",         "emphasis": "không lấy đi",   "size": "subtitle", "align": "top" }
+  ],
+
+  "scenes": [
+    { "type": "imageScene", "from": 0.00,  "to": 6.80,  "prompt": "The same Vietnamese man in his mid-30s in an earth-toned button-down, sitting quietly at a modern office meeting table with coworkers around him, warm morning light through blinds, his face soft and pleasant but shoulders slightly tense, cream and terracotta office tones, painterly grain",           "kenBurns": "zoomIn",   "overlay": "dark", "seed": 900 },
+    { "type": "imageScene", "from": 6.80,  "to": 17.50, "prompt": "The same Vietnamese man mid-30s standing tall at a corporate meeting table mid-outburst, one hand hitting the table, projector slide dimly visible behind, other colleagues frozen in surprise, warm morning window light cutting across the scene, cream and terracotta palette, painterly grain, moment of rupture", "kenBurns": "panRight", "overlay": "dark", "seed": 910 },
+    { "type": "imageScene", "from": 17.50, "to": 30.80, "prompt": "The same Vietnamese man mid-30s in earth-toned button-down, standing alone in an empty office hallway with his back to the closed conference-room door, face drained and pale, warm morning light spilling from a nearby window, cream and terracotta palette, painterly grain, silence after the storm", "kenBurns": "zoomOut",  "overlay": "dark", "seed": 920 },
+    { "type": "imageScene", "from": 30.80, "to": 36.30, "prompt": "The same Vietnamese man mid-30s carrying a cardboard box of personal items out of an office building at dawn, warm morning sunrise casting his long shadow across the empty parking lot, distant office building lights fading, cream and terracotta palette, painterly grain, quiet loss",                       "kenBurns": "panLeft",  "overlay": "dark", "seed": 930 },
+    { "type": "book",       "from": 36.30, "to": 47.60 },
+    { "type": "imageScene", "from": 47.60, "to": 53.50, "prompt": "A metaphorical image: a small human silhouette at the wheel of an old wooden ship, waves of orange and terracotta light behind, a shadowy hand of pure flame reaching from behind to grab the steering wheel from him, painterly grain, illustrative not literal, 9:16",                                              "kenBurns": "zoomIn",   "overlay": "dark", "seed": 940 },
+    { "type": "imageScene", "from": 53.50, "to": 64.30, "prompt": "The same Vietnamese man mid-30s sitting at a small home wooden desk with morning tea, eyes half-closed, one hand at his chest, breathing slowly and deliberately, warm morning light from a window on the side, cream and terracotta home tones, painterly grain, quiet self-mastery",                              "kenBurns": "panRight", "overlay": "dark", "seed": 950 },
+    { "type": "imageScene", "from": 64.30, "to": 75.20, "prompt": "The same Vietnamese man mid-30s reading a paperback book on a small couch in a warmly lit living room, a cup of tea on the low table, page turned mid-thought, warm morning light on his face, cream and terracotta interior, painterly grain, quiet learning",                                                      "kenBurns": "zoomOut",  "overlay": "dark", "seed": 960 },
+    { "type": "imageScene", "from": 75.20, "to": 94.00, "prompt": "The same Vietnamese man mid-30s walking back into a new office at sunrise with light in his eyes and a folded copy of the book under his arm, warm morning golden light streaming through glass office doors, cream and terracotta palette, painterly grain, sense of second chance",                              "kenBurns": "zoomIn",   "overlay": "light", "seed": 970 },
+    {
+      "type": "payoff",
+      "from": 81.02,
+      "to": 94.00,
+      "ctaAt": 89.80,
+      "leftCard":  { "label": "CƯỚP SÓNG", "verb": "Mất tất cả", "icon": "⚡", "color": "negative" },
+      "rightCard": { "label": "VÀI GIÂY",  "verb": "Giữ được mình", "icon": "🌱", "color": "primary"  }
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.22 },
+    { "at": 6.80,  "sound": "whoosh",   "volume": 0.20 },
+    { "at": 12.97, "sound": "uiSwitch", "volume": 0.24 },
+    { "at": 17.50, "sound": "ding",     "volume": 0.18 },
+    { "at": 30.80, "sound": "whoosh",   "volume": 0.18 },
+    { "at": 36.30, "sound": "pageTurn", "volume": 0.28 },
+    { "at": 47.60, "sound": "whoosh",   "volume": 0.20 },
+    { "at": 53.50, "sound": "ding",     "volume": 0.20 },
+    { "at": 64.30, "sound": "uiSwitch", "volume": 0.18 },
+    { "at": 75.20, "sound": "whoosh",   "volume": 0.20 },
+    { "at": 89.80, "sound": "pageTurn", "volume": 0.28 }
+  ]
+}
