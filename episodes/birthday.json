@@ -1,0 +1,105 @@
+{
+  "id": "birthday",
+  "title": "Tưởng nó chảnh, hoá ra nó sợ",
+  "durationSec": 78,
+  "fps": 30,
+  "format": "narrative",
+  "themePreset": "library",
+
+  "voice": { "file": "birthday-voice.m4a", "durationSec": 73.76 },
+  "bgm": { "file": "bgm/lofi-motivational.mp3", "volume": 0.07, "fadeSec": 1.5 },
+
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#3d5a80", "accent": "#f5ead6", "motif": "🕯" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nay nói về",
+    "hook": "TÔI TƯỞNG NÓ CHẢNH",
+    "subhook": "Hoá ra nó đang sợ. Mà không biết cách nói.",
+    "badge": "SÁCH HAY · 74s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+
+  "styleBible": {
+    "protagonist": "the same young Vietnamese woman in her late 20s, straight dark hair to shoulders, a plain cream or muted-blue button-down or knit sweater, quiet worn expression — she is the narrator observing her best friend; both women appear in the story but the narrator's features stay consistent across shots",
+    "style": "moody library-at-dusk illustration, deep navy and warm gold palette, painterly soft-focus grain, cinematic composition with clear negative space, subtle vignette",
+    "avoid": "no photorealism, no text/letters/logos in image, no 3D render, no harsh shadows, no cartoonish exaggeration"
+  },
+  "imageStyle": "moody library-at-dusk illustration, deep navy and warm gold palette, painterly grain, 9:16 vertical, no text",
+
+  "captions": [
+    { "from": 0.14,  "to": 3.28,  "text": "Con bạn thân của tôi tự dưng đổi tính.",                "emphasis": "đổi tính",       "size": "heading",  "align": "top" },
+    { "from": 3.39,  "to": 4.72,  "text": "Nhắn tin thì cộc lốc.",                                  "emphasis": "cộc lốc",        "size": "title",    "align": "center" },
+    { "from": 4.96,  "to": 6.56,  "text": "Rủ cà phê thì kiếm cớ.",                                  "emphasis": "kiếm cớ",        "size": "heading",  "align": "top" },
+    { "from": 6.72,  "to": 11.60, "text": "Có bữa tôi nói giỡn một câu, nó nổi quạu, nghỉ chơi cả tuần.", "emphasis": "nổi quạu", "size": "subtitle", "align": "bottom" },
+
+    { "from": 11.84, "to": 15.68, "text": "Tôi tức, nghĩ chắc nó chảnh, có bạn mới rồi.",           "emphasis": "chảnh",          "size": "subtitle", "align": "top" },
+
+    { "from": 16.71, "to": 19.16, "text": "Tới hôm sinh nhật tôi, nó nhắn xin lỗi.",                 "emphasis": "xin lỗi",        "size": "heading",  "align": "bottom" },
+    { "from": 19.30, "to": 19.92, "text": "Rồi kể.",                                                  "emphasis": "kể",             "size": "title",    "align": "center" },
+
+    { "from": 20.29, "to": 21.84, "text": "Ba nó bệnh nặng mấy tháng nay.",                          "emphasis": "bệnh nặng",      "size": "heading",  "align": "bottom" },
+    { "from": 22.03, "to": 26.00, "text": "Nó vừa đi làm vừa chạy viện, kiệt sức mà không dám than với ai.", "emphasis": "kiệt sức", "size": "subtitle", "align": "top" },
+    { "from": 26.09, "to": 28.16, "text": "Trong lòng lúc nào cũng như lửa đốt.",                    "emphasis": "lửa đốt",        "size": "heading",  "align": "bottom" },
+
+    { "from": 28.35, "to": 30.56, "text": "Nó tưởng nó đang ghét cả thế giới.",                     "emphasis": "ghét cả thế giới", "size": "heading", "align": "top" },
+    { "from": 30.67, "to": 32.12, "text": "Thật ra nó đang sợ.",                                     "emphasis": "sợ",              "size": "title",    "align": "center" },
+    { "from": 32.26, "to": 33.04, "text": "Sợ mất ba.",                                              "emphasis": "mất ba",          "size": "title",    "align": "center" },
+
+    { "from": 33.26, "to": 37.72, "text": "Nó không gọi được tên cảm giác đó, nên trút lên người gần nhất.", "emphasis": "trút lên", "size": "subtitle", "align": "bottom" },
+    { "from": 37.82, "to": 38.32, "text": "Là tôi.",                                                 "emphasis": "Là tôi",         "size": "title",    "align": "center" },
+
+    { "from": 39.07, "to": 43.36, "text": "Chuyện này làm tôi nhớ một ý trong Trí Tuệ Cảm Xúc của Goleman.", "emphasis": "Trí Tuệ Cảm Xúc", "size": "subtitle", "align": "bottom" },
+    { "from": 43.72, "to": 49.16, "text": "Goleman nói: khó nhất là gọi cho đúng tên cái mình đang cảm thấy.", "emphasis": "gọi đúng tên",   "size": "subtitle", "align": "top" },
+
+    { "from": 49.41, "to": 51.92, "text": "Cảm xúc mình không gọi được tên...",                     "emphasis": "không gọi được tên", "size": "heading",  "align": "bottom" },
+    { "from": 51.95, "to": 53.68, "text": "sẽ điều khiển mình từ trong tối.",                        "emphasis": "trong tối",       "size": "heading",  "align": "top" },
+    { "from": 53.92, "to": 57.64, "text": "Mình tưởng mình giận, thật ra đang sợ, đang tổn thương.", "emphasis": "tổn thương",     "size": "subtitle", "align": "bottom" },
+
+    { "from": 57.87, "to": 62.64, "text": "Sách chỉ cách dừng lại, nhìn thẳng vào lòng mình, gọi đúng tên nó.", "emphasis": "gọi đúng tên", "size": "subtitle", "align": "top" },
+
+    { "from": 63.40, "to": 67.04, "text": "Nếu bạn cáu gắt vô cớ, không hiểu nổi chính mình...",     "emphasis": "cáu gắt",        "size": "subtitle", "align": "bottom" },
+    { "from": 67.06, "to": 68.56, "text": "thử đọc Trí Tuệ Cảm Xúc coi.",                            "emphasis": "thử đọc",        "size": "heading",  "align": "top" },
+
+    { "from": 69.27, "to": 72.24, "text": "Chỉ cần gọi trúng tên nỗi lòng mình thôi...",             "emphasis": "gọi trúng tên",  "size": "subtitle", "align": "bottom" },
+    { "from": 72.29, "to": 73.76, "text": "là nó đã dịu đi một nửa.",                                "emphasis": "dịu đi một nửa", "size": "heading",  "align": "center" }
+  ],
+
+  "scenes": [
+    { "type": "imageScene", "from": 0.00,  "to": 11.80, "prompt": "The same young Vietnamese woman in her late 20s in a plain cream button-down, sitting alone at a small cafe table at dusk, staring at a phone screen with unanswered messages, warm gold cafe pendant light against deep navy shadows, painterly grain, quiet confusion",  "kenBurns": "zoomIn",   "overlay": "dark", "seed": 1000 },
+    { "type": "imageScene", "from": 11.80, "to": 16.70, "prompt": "The same young Vietnamese woman in cream button-down, walking alone down a quiet Vietnamese street at dusk, arms crossed and expression pinched, warm gold sodium streetlight above and deep navy dusk shadows around, painterly grain, feeling of being pushed away",     "kenBurns": "panRight", "overlay": "dark", "seed": 1010 },
+    { "type": "imageScene", "from": 16.70, "to": 28.30, "prompt": "A different young Vietnamese woman late 20s in a rumpled office shirt, slumped exhausted in a hospital corridor chair at night, phone in her hand mid-message, blurred hospital signs behind, warm gold hospital fluorescents fighting with deep navy corridor shadows, painterly grain, hidden exhaustion",  "kenBurns": "zoomOut",  "overlay": "dark", "seed": 1020 },
+    { "type": "imageScene", "from": 28.30, "to": 38.30, "prompt": "The same exhausted young Vietnamese woman late 20s in office shirt, sitting at the edge of a hospital bed holding her father's hand, her father a Vietnamese man in his 60s pale and sleeping under an IV drip, warm gold bedside lamp against deep navy hospital shadows, painterly grain, silent fear",   "kenBurns": "panLeft",  "overlay": "dark", "seed": 1030 },
+    { "type": "book",       "from": 38.30, "to": 49.30 },
+    { "type": "imageScene", "from": 49.30, "to": 57.80, "prompt": "A metaphorical image: a young Vietnamese woman's silhouette in a dim library, unseen dark tendrils of shadow wrapping around her from behind while she reaches forward in confusion, warm gold library shelves in the far background, painterly grain, illustrative not literal, 9:16", "kenBurns": "zoomIn",   "overlay": "dark", "seed": 1040 },
+    { "type": "imageScene", "from": 57.80, "to": 63.30, "prompt": "The same young Vietnamese woman in cream button-down, sitting at a small library desk with hands folded, eyes closed in quiet self-inquiry, single warm gold desk lamp, deep navy library shelves behind, painterly grain, moment of self-honesty",                     "kenBurns": "panRight", "overlay": "dark", "seed": 1050 },
+    { "type": "imageScene", "from": 63.30, "to": 69.20, "prompt": "The same young Vietnamese woman in cream button-down, reading a paperback book curled up on a warm-lit reading chair in a small library corner, cup of tea on side table, warm gold reading lamp, deep navy shelves around, painterly grain, quiet learning",              "kenBurns": "zoomOut",  "overlay": "dark", "seed": 1060 },
+    { "type": "imageScene", "from": 69.20, "to": 78.00, "prompt": "The same two young Vietnamese women — the narrator in cream and the friend in blue — sitting together at a small warm-lit cafe table at dusk after reconciling, both leaning in with softened faces, warm gold cafe pendant light, deep navy dusk shadows outside, painterly grain, sense of understanding restored", "kenBurns": "zoomIn", "overlay": "light", "seed": 1070 },
+    {
+      "type": "payoff",
+      "from": 63.40,
+      "to": 78.00,
+      "ctaAt": 73.80,
+      "leftCard":  { "label": "KHÔNG TÊN", "verb": "Điều khiển",  "icon": "🌑", "color": "negative" },
+      "rightCard": { "label": "GỌI TÊN",   "verb": "Dịu một nửa",  "icon": "🕯", "color": "primary"  }
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.22 },
+    { "at": 11.80, "sound": "whoosh",   "volume": 0.18 },
+    { "at": 16.70, "sound": "uiSwitch", "volume": 0.20 },
+    { "at": 28.30, "sound": "ding",     "volume": 0.18 },
+    { "at": 38.30, "sound": "pageTurn", "volume": 0.28 },
+    { "at": 49.30, "sound": "whoosh",   "volume": 0.20 },
+    { "at": 57.80, "sound": "ding",     "volume": 0.20 },
+    { "at": 63.30, "sound": "uiSwitch", "volume": 0.18 },
+    { "at": 73.80, "sound": "pageTurn", "volume": 0.28 }
+  ]
+}
