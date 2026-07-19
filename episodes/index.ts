@@ -28,6 +28,7 @@ import spill from './spill.json';
 import uncle from './uncle.json';
 import hijack from './hijack.json';
 import birthday from './birthday.json';
+import marshmallow from './marshmallow.json';
 
 export const EPISODES: Episode[] = [
   ei as Episode,
@@ -44,4 +45,5 @@ export const EPISODES: Episode[] = [
   uncle as Episode,
   hijack as Episode,
   birthday as Episode,
+  marshmallow as Episode,
 ];

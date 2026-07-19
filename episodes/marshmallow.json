@@ -1,0 +1,106 @@
+{
+  "id": "marshmallow",
+  "title": "Một viên kẹo đổi đời",
+  "durationSec": 84,
+  "fps": 30,
+  "format": "narrative",
+  "themePreset": "morning",
+
+  "voice": { "file": "marshmallow-voice.m4a", "durationSec": 80.32 },
+  "bgm": { "file": "bgm/lofi-motivational.mp3", "volume": 0.07, "fadeSec": 1.5 },
+
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#8b5a3c", "accent": "#f8f1e3", "motif": "🐖" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nay nói về",
+    "hook": "MỘT VIÊN KẸO ĐỔI ĐỜI",
+    "subhook": "Nhịn được 15 phút. Cả đời khác hẳn.",
+    "badge": "SÁCH HAY · 80s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+
+  "styleBible": {
+    "protagonist": "the same Vietnamese narrator — a young uncle in his early 30s in a plain earth-toned polo, appears briefly in framing scenes; the story's subjects are two Vietnamese kids (an older brother about 8, a younger sister about 6) at Lunar New Year — they appear as children and then years later as young adults in their 20s",
+    "style": "warm morning-light illustration, cream and terracotta palette with Vietnamese-home tones, painterly soft-focus grain, cinematic composition with clear negative space, subtle vignette, nostalgic Tết-lì-xì mood",
+    "avoid": "no photorealism, no text/letters/logos in image, no 3D render, no harsh shadows, no cartoonish exaggeration"
+  },
+  "imageStyle": "warm morning-light illustration, cream and terracotta palette, painterly grain, 9:16 vertical, no text",
+
+  "captions": [
+    { "from": 0.07,  "to": 3.28,  "text": "Tết nào tôi cũng lì xì hai đứa cháu, mỗi đứa như nhau.", "emphasis": "hai đứa cháu",    "size": "subtitle", "align": "top" },
+    { "from": 3.65,  "to": 9.12,  "text": "Thằng anh cầm tiền là chạy ra tiệm, tiêu sạch trong hai ngày.", "emphasis": "tiêu sạch", "size": "subtitle", "align": "bottom" },
+    { "from": 9.67,  "to": 11.92, "text": "Con em thì gom lại, bỏ ống heo.",                        "emphasis": "ống heo",         "size": "heading",  "align": "top" },
+    { "from": 12.08, "to": 13.52, "text": "Ai cho gì cũng để dành.",                                  "emphasis": "để dành",         "size": "heading",  "align": "bottom" },
+
+    { "from": 13.88, "to": 15.76, "text": "Hồi đó tôi thấy con em...",                                "size": "heading",  "align": "top" },
+    { "from": 15.80, "to": 16.40, "text": "hơi khờ.",                                                 "emphasis": "khờ",             "size": "title",    "align": "center" },
+    { "from": 16.53, "to": 18.24, "text": "Tiền không xài thì để làm chi.",                           "emphasis": "để làm chi",      "size": "heading",  "align": "bottom" },
+
+    { "from": 19.11, "to": 20.41, "text": "Mười mấy năm sau nhìn lại.",                              "emphasis": "mười mấy năm",    "size": "heading",  "align": "top" },
+    { "from": 20.73, "to": 25.37, "text": "Thằng anh giờ lương tháng nào xài hết tháng đó, luôn than thiếu.", "emphasis": "than thiếu", "size": "subtitle", "align": "bottom" },
+    { "from": 25.57, "to": 28.57, "text": "Con em thì nết để dành hồi nhỏ thành thói quen.",         "emphasis": "thói quen",       "size": "subtitle", "align": "top" },
+    { "from": 28.75, "to": 32.24, "text": "Nó mở được tiệm nhỏ, tự lo được cho mình.",                "emphasis": "tự lo",           "size": "subtitle", "align": "bottom" },
+
+    { "from": 32.49, "to": 34.65, "text": "Khác biệt không nằm ở đứa nào khôn hơn.",                 "emphasis": "không nằm",       "size": "heading",  "align": "top" },
+    { "from": 34.97, "to": 37.92, "text": "Nằm ở đứa nào chịu được cảm giác...",                     "size": "subtitle", "align": "bottom" },
+    { "from": 37.95, "to": 39.28, "text": "thèm mà khoan xài.",                                       "emphasis": "khoan xài",       "size": "title",    "align": "center" },
+
+    { "from": 40.37, "to": 43.77, "text": "Trong Trí Tuệ Cảm Xúc, Goleman kể một thí nghiệm nổi tiếng.", "emphasis": "thí nghiệm",   "size": "subtitle", "align": "bottom" },
+    { "from": 44.10, "to": 47.50, "text": "Đưa cho mấy đứa nhỏ một viên kẹo, rồi nói:",              "emphasis": "một viên kẹo",   "size": "subtitle", "align": "top" },
+    { "from": 47.50, "to": 51.73, "text": "nếu nhịn được mười lăm phút, cô cho thêm một viên nữa.",  "emphasis": "mười lăm phút",  "size": "subtitle", "align": "bottom" },
+    { "from": 52.09, "to": 53.85, "text": "Đứa nhịn được, đứa không.",                                "emphasis": "nhịn được",      "size": "title",    "align": "center" },
+
+    { "from": 54.33, "to": 57.77, "text": "Mấy chục năm sau theo dõi lại, mấy đứa nhịn được...",     "emphasis": "chục năm sau",   "size": "subtitle", "align": "top" },
+    { "from": 57.83, "to": 61.25, "text": "học hành, công việc đa số đều ổn hơn hẳn.",               "emphasis": "ổn hơn hẳn",     "size": "subtitle", "align": "bottom" },
+
+    { "from": 61.40, "to": 63.81, "text": "Không phải vì tụi nó thông minh hơn.",                     "emphasis": "không phải",     "size": "heading",  "align": "top" },
+    { "from": 63.95, "to": 68.61, "text": "Mà vì sớm biết kìm cái ham muốn trước mắt, để đổi lấy thứ lớn hơn.", "emphasis": "kìm ham muốn", "size": "subtitle", "align": "bottom" },
+
+    { "from": 69.57, "to": 73.45, "text": "Nếu bạn hay bỏ cuộc giữa chừng, chiều cái sướng rồi tiếc...", "emphasis": "chiều cái sướng", "size": "subtitle", "align": "top" },
+    { "from": 73.49, "to": 74.89, "text": "đọc thử Trí Tuệ Cảm Xúc.",                                 "emphasis": "đọc thử",         "size": "heading",  "align": "bottom" },
+
+    { "from": 75.42, "to": 78.25, "text": "Nó chỉ cách rèn cái sức mạnh thầm lặng đó...",             "emphasis": "sức mạnh thầm lặng", "size": "subtitle", "align": "top" },
+    { "from": 78.29, "to": 80.33, "text": "thứ quyết định bạn đi được xa tới đâu.",                    "emphasis": "đi được xa",      "size": "heading",  "align": "bottom" }
+  ],
+
+  "scenes": [
+    { "type": "imageScene", "from": 0.00,  "to": 9.60,  "prompt": "A cozy Vietnamese Tết family scene with a young uncle in his early 30s in a plain terracotta polo shirt handing red lì xì envelopes to two children — a Vietnamese boy about 8 in a red shirt and a younger Vietnamese girl about 6 in a yellow ao dai — warm morning sun through the doorway, cream and terracotta home tones, painterly grain",  "kenBurns": "zoomIn",   "overlay": "dark", "seed": 1100 },
+    { "type": "imageScene", "from": 9.60,  "to": 13.90, "prompt": "The same Vietnamese boy about 8 in a red shirt running through a Vietnamese neighborhood street toward a small convenience shop, red lì xì envelope in his hand, arms full of toys and candy, sunny warm morning light, cream and terracotta palette, painterly grain, joyful spending",                                                                    "kenBurns": "panRight", "overlay": "dark", "seed": 1110 },
+    { "type": "imageScene", "from": 13.90, "to": 19.10, "prompt": "The same Vietnamese girl about 6 in a yellow ao dai, kneeling in a warmly lit bedroom carefully feeding coins and folded bills into a small ceramic piggy bank on a low wooden table, morning light through the window, cream and terracotta tones, painterly grain, quiet patience",                                                                     "kenBurns": "zoomIn",   "overlay": "dark", "seed": 1120 },
+    { "type": "imageScene", "from": 19.10, "to": 25.60, "prompt": "The same Vietnamese boy grown into his mid-20s in a plain white office shirt, standing at an ATM checking a receipt with an anxious frown, dawn light in a Vietnamese city street behind, cream and terracotta palette, painterly grain, adult financial stress",                                                                                          "kenBurns": "zoomOut",  "overlay": "dark", "seed": 1130 },
+    { "type": "imageScene", "from": 25.60, "to": 32.30, "prompt": "The same Vietnamese girl grown into her mid-20s in a plain earth-toned button-down, standing in the doorway of her own small shop in a Vietnamese neighborhood — bakery or fabric store — sunlight streaming in over shelves of merchandise, painting a rental sign, cream and terracotta palette, painterly grain, quiet self-sufficiency",              "kenBurns": "panLeft",  "overlay": "dark", "seed": 1140 },
+    { "type": "book",       "from": 39.80, "to": 51.90 },
+    { "type": "imageScene", "from": 32.30, "to": 39.80, "prompt": "Split-composition illustration: on one side the young man from a bank ATM shot with a worried expression, on the other side the young woman standing proudly in her small shop doorway, subtle warm gold line in the middle connecting them, cream and terracotta palette, painterly grain, portrait of divergent life paths",                             "kenBurns": "zoomIn",   "overlay": "dark", "seed": 1150 },
+    { "type": "imageScene", "from": 51.90, "to": 61.30, "prompt": "A metaphor scene: several small hands from Vietnamese children reaching toward a single wrapped candy on a plain wooden table, one small hand pulling back with clenched fist and closed eyes, warm morning light on the table, cream and terracotta palette, painterly grain, moment of restraint",                                                        "kenBurns": "panRight", "overlay": "dark", "seed": 1160 },
+    { "type": "imageScene", "from": 61.30, "to": 69.60, "prompt": "A young Vietnamese adult in earth-toned button-down sitting at a small home desk with a notebook and cup of tea, hand hovering over a phone that's face-down on the table, choosing patience over impulse, warm morning light on his face, cream and terracotta palette, painterly grain, quiet self-mastery",                                              "kenBurns": "zoomOut",  "overlay": "dark", "seed": 1170 },
+    { "type": "imageScene", "from": 69.60, "to": 84.00, "prompt": "The same Vietnamese adult mid-20s reading a paperback book on a couch in a warmly lit home, cup of tea beside, one hand resting on chest, warm morning light through window, cream and terracotta interior, painterly grain, learning delayed gratification",                                                                                              "kenBurns": "zoomIn",   "overlay": "light", "seed": 1180 },
+    {
+      "type": "payoff",
+      "from": 69.57,
+      "to": 84.00,
+      "ctaAt": 80.40,
+      "leftCard":  { "label": "SƯỚNG LIỀN", "verb": "Tiếc sau",       "icon": "🍬", "color": "negative" },
+      "rightCard": { "label": "KIÊN NHẪN",  "verb": "Đổi thứ lớn hơn", "icon": "🐖", "color": "primary"  }
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.22 },
+    { "at": 9.60,  "sound": "whoosh",   "volume": 0.20 },
+    { "at": 13.90, "sound": "uiSwitch", "volume": 0.20 },
+    { "at": 19.10, "sound": "ding",     "volume": 0.18 },
+    { "at": 25.60, "sound": "whoosh",   "volume": 0.20 },
+    { "at": 32.30, "sound": "uiSwitch", "volume": 0.18 },
+    { "at": 39.80, "sound": "pageTurn", "volume": 0.28 },
+    { "at": 51.90, "sound": "ding",     "volume": 0.22 },
+    { "at": 61.30, "sound": "whoosh",   "volume": 0.18 },
+    { "at": 80.40, "sound": "pageTurn", "volume": 0.28 }
+  ]
+}
