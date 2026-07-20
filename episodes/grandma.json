@@ -1,0 +1,108 @@
+{
+  "id": "grandma",
+  "title": "Miệng cười, mắt không cười",
+  "durationSec": 87,
+  "fps": 30,
+  "format": "narrative",
+  "themePreset": "library",
+
+  "voice": { "file": "grandma-voice.m4a", "durationSec": 83.52 },
+  "bgm": { "file": "bgm/lofi-motivational.mp3", "volume": 0.07, "fadeSec": 1.5 },
+
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#3d5a80", "accent": "#f5ead6", "motif": "🍠" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nay nói về",
+    "hook": "MIỆNG CƯỜI, MẮT KHÔNG CƯỜI",
+    "subhook": "Bà nội thấy con buồn, dù con giấu cả nhà.",
+    "badge": "SÁCH HAY · 84s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+
+  "styleBible": {
+    "protagonist": "the story has two recurring subjects: (1) a Vietnamese child around 8-12 years old with dark short hair in plain school clothes — the narrator remembering childhood; (2) a Vietnamese grandmother in her mid-70s, silver hair pulled back, worn earth-toned áo bà ba blouse, quiet weathered face; both appear in most scenes as a pair in a warm Vietnamese home",
+    "style": "moody nostalgic-memory illustration, deep navy and warm gold palette (Vietnamese-home-at-dusk lighting), painterly soft-focus grain, cinematic composition with clear negative space, subtle vignette, sense of childhood memory",
+    "avoid": "no photorealism, no text/letters/logos in image, no 3D render, no harsh shadows, no cartoonish exaggeration"
+  },
+  "imageStyle": "moody nostalgic-memory illustration, deep navy and warm gold palette, painterly grain, 9:16 vertical, no text",
+
+  "captions": [
+    { "from": 0.07,  "to": 2.08,  "text": "Hồi nhỏ, tôi giấu bà nội giỏi lắm.",                     "emphasis": "giấu bà nội",    "size": "heading",  "align": "top" },
+    { "from": 2.27,  "to": 3.60,  "text": "Hoặc tôi tưởng vậy.",                                    "emphasis": "tưởng vậy",       "size": "title",    "align": "center" },
+
+    { "from": 4.20,  "to": 8.56,  "text": "Bị điểm kém, bị bạn nghỉ chơi, tôi về nhà vẫn cười nói bình thường.", "emphasis": "vẫn cười", "size": "subtitle", "align": "top" },
+    { "from": 8.80,  "to": 11.76, "text": "Ai hỏi cũng \"con khỏe, con không sao\".",                "emphasis": "không sao",       "size": "heading",  "align": "bottom" },
+
+    { "from": 12.02, "to": 13.84, "text": "Vậy mà bà nội biết hết.",                                 "emphasis": "biết hết",        "size": "heading",  "align": "center" },
+
+    { "from": 14.38, "to": 20.72, "text": "Bữa nào tôi buồn, tối đó bà lẳng lặng luộc khoai — món tôi mê nhất.", "emphasis": "luộc khoai", "size": "subtitle", "align": "top" },
+    { "from": 20.81, "to": 22.00, "text": "Không hỏi han gì.",                                       "emphasis": "không hỏi",       "size": "title",    "align": "center" },
+    { "from": 22.14, "to": 24.40, "text": "Chỉ để dĩa khoai đó, ngồi kế bên.",                       "emphasis": "ngồi kế bên",    "size": "heading",  "align": "bottom" },
+
+    { "from": 25.73, "to": 28.08, "text": "Có lần tôi hỏi, sao bà biết con buồn.",                   "emphasis": "biết con buồn",  "size": "heading",  "align": "top" },
+    { "from": 28.32, "to": 31.76, "text": "Bà cười: \"Bây ăn cơm ít hơn mọi bữa một chén.",           "emphasis": "một chén",        "size": "subtitle", "align": "bottom" },
+    { "from": 31.95, "to": 34.80, "text": "Miệng thì cười mà mắt nó có cười đâu.\"",                  "emphasis": "mắt không cười", "size": "heading",  "align": "center" },
+    { "from": 34.90, "to": 36.24, "text": "Tôi giật mình.",                                          "emphasis": "giật mình",       "size": "title",    "align": "center" },
+
+    { "from": 36.43, "to": 40.76, "text": "Bao nhiêu năm, bà đọc tôi qua những thứ tôi tưởng không ai để ý.", "emphasis": "không ai để ý", "size": "subtitle", "align": "top" },
+
+    { "from": 41.89, "to": 46.96, "text": "Sau này đọc Trí Tuệ Cảm Xúc của Goleman, tôi mới có tên cho cái bà làm.", "emphasis": "có tên", "size": "subtitle", "align": "bottom" },
+    { "from": 47.17, "to": 48.91, "text": "Đó là đồng cảm.",                                          "emphasis": "đồng cảm",        "size": "title",    "align": "center" },
+
+    { "from": 49.43, "to": 53.20, "text": "Goleman nói, người ta ít khi nói thẳng là mình đang buồn.", "emphasis": "ít khi nói thẳng", "size": "subtitle", "align": "top" },
+    { "from": 53.44, "to": 58.35, "text": "Cảm xúc thật rò rỉ qua ánh mắt, giọng nói, qua cái cách người ta im lặng.", "emphasis": "rò rỉ",   "size": "subtitle", "align": "bottom" },
+
+    { "from": 58.75, "to": 61.12, "text": "Người đồng cảm không phải người nghe giỏi.",              "emphasis": "không phải",     "size": "heading",  "align": "top" },
+    { "from": 61.32, "to": 64.56, "text": "Là người nhìn ra được điều người kia không nói thành lời.", "emphasis": "không nói thành lời", "size": "subtitle", "align": "bottom" },
+
+    { "from": 64.99, "to": 67.44, "text": "Và đó là thứ giữ người ta ở lại bên nhau.",                "emphasis": "ở lại bên nhau", "size": "heading",  "align": "top" },
+    { "from": 67.76, "to": 71.36, "text": "Ai chẳng muốn được hiểu mình mà không cần giải thích.",   "emphasis": "không cần giải thích", "size": "subtitle", "align": "bottom" },
+
+    { "from": 71.50, "to": 75.92, "text": "Nếu bạn hay vô tâm, để người thân buồn mà không nhận ra...", "emphasis": "vô tâm",       "size": "subtitle", "align": "top" },
+    { "from": 75.98, "to": 77.36, "text": "đọc thử Trí Tuệ Cảm Xúc.",                                  "emphasis": "đọc thử",        "size": "heading",  "align": "bottom" },
+
+    { "from": 77.99, "to": 79.52, "text": "Đôi khi thương một người...",                              "emphasis": "thương",          "size": "title",    "align": "center" },
+    { "from": 79.56, "to": 82.56, "text": "bắt đầu từ việc để ý họ ăn ít hơn một chén cơm.",          "emphasis": "một chén cơm",    "size": "subtitle", "align": "bottom" }
+  ],
+
+  "scenes": [
+    { "type": "imageScene", "from": 0.00,  "to": 4.10,  "prompt": "A Vietnamese child around 10 years old with short dark hair in plain school uniform, sitting at a small wooden family dinner table with a big smile on their face, warm gold overhead pendant light against deep navy home shadows, painterly grain, memory-view, quiet performance of okay-ness", "kenBurns": "zoomIn",   "overlay": "dark", "seed": 1200 },
+    { "type": "imageScene", "from": 4.10,  "to": 12.00, "prompt": "The same Vietnamese child around 10, walking home from school on a dusk Vietnamese street with a folded low-graded test paper hidden in their backpack, forcing a small smile at strangers passing by, warm gold sodium streetlight against deep navy dusk shadows, painterly grain, small child's private hurt",   "kenBurns": "panRight", "overlay": "dark", "seed": 1210 },
+    { "type": "imageScene", "from": 12.00, "to": 20.80, "prompt": "A Vietnamese grandmother in her mid-70s in a worn earth-toned áo bà ba, quietly boiling a small pot of sweet potatoes on an old wood stove in a warm-lit Vietnamese kitchen at dusk, gentle steam rising, deep navy kitchen shadows, warm gold stove light on her wrinkled face, painterly grain, silent knowing", "kenBurns": "zoomIn",   "overlay": "dark", "seed": 1220 },
+    { "type": "imageScene", "from": 20.80, "to": 25.70, "prompt": "The same Vietnamese grandmother in earth-toned áo bà ba, silently placing a plate of steaming boiled sweet potatoes on a small wooden table in front of her grandchild (about 10, in school uniform), sitting down beside them without saying anything, warm gold lamp above the table, deep navy home shadows, painterly grain, wordless comfort", "kenBurns": "panLeft", "overlay": "dark", "seed": 1230 },
+    { "type": "imageScene", "from": 25.70, "to": 36.50, "prompt": "Close intimate shot: the same Vietnamese grandmother in áo bà ba, sitting on a low wooden stool beside her grandchild, gently pointing at the child's rice bowl and their face with a small knowing smile, the child looking up in surprise, warm gold table lamp, deep navy dusk shadows around, painterly grain, tender moment of being seen", "kenBurns": "zoomIn",   "overlay": "dark", "seed": 1240 },
+    { "type": "book",       "from": 40.30, "to": 49.00 },
+    { "type": "imageScene", "from": 36.50, "to": 40.30, "prompt": "A metaphor image: the outline of a Vietnamese child's face at dusk with faint glowing threads of warm gold light drifting outward from their eyes and mouth like breath in cold air, deep navy silhouette against a background of dim library shelves, painterly grain, illustrative not literal, 9:16", "kenBurns": "zoomOut",  "overlay": "dark", "seed": 1250 },
+    { "type": "imageScene", "from": 49.00, "to": 58.70, "prompt": "A metaphor image: two silhouetted Vietnamese figures sitting side by side at a wooden table, the older figure (grandmother in áo bà ba) watching the younger one's downcast eyes with attentive care while the younger one looks away, warm gold single lamp between them, deep navy library-at-dusk background, painterly grain, act of noticing what is not said", "kenBurns": "panRight", "overlay": "dark", "seed": 1260 },
+    { "type": "imageScene", "from": 58.70, "to": 71.40, "prompt": "Two Vietnamese figures at a warm-lit kitchen table sharing a quiet moment, one gently placing a hand over the other's hand without speaking, warm gold table lamp, deep navy home shadows around, painterly grain, the felt-experience of being understood without explanation", "kenBurns": "zoomIn",   "overlay": "dark", "seed": 1270 },
+    { "type": "imageScene", "from": 71.40, "to": 87.00, "prompt": "A grown Vietnamese adult in a plain earth-toned button-down, sitting at a dinner table across from an elderly parent, gently reaching for the parent's rice bowl to serve them more rice while noticing something quiet in their face, warm gold home light, deep navy dusk shadows, painterly grain, closing image of learned empathy passed forward", "kenBurns": "zoomOut",  "overlay": "light", "seed": 1280 },
+    {
+      "type": "payoff",
+      "from": 71.50,
+      "to": 87.00,
+      "ctaAt": 83.60,
+      "leftCard":  { "label": "VÔ TÂM",  "verb": "Nghe không thấy",         "icon": "🙈", "color": "negative" },
+      "rightCard": { "label": "ĐỒNG CẢM", "verb": "Nhìn ra điều không nói", "icon": "👁", "color": "primary"  }
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.22 },
+    { "at": 4.10,  "sound": "whoosh",   "volume": 0.18 },
+    { "at": 12.00, "sound": "uiSwitch", "volume": 0.20 },
+    { "at": 20.80, "sound": "ding",     "volume": 0.16 },
+    { "at": 25.70, "sound": "whoosh",   "volume": 0.16 },
+    { "at": 40.30, "sound": "pageTurn", "volume": 0.28 },
+    { "at": 49.00, "sound": "ding",     "volume": 0.20 },
+    { "at": 58.70, "sound": "uiSwitch", "volume": 0.16 },
+    { "at": 71.40, "sound": "whoosh",   "volume": 0.18 },
+    { "at": 83.60, "sound": "pageTurn", "volume": 0.28 }
+  ]
+}

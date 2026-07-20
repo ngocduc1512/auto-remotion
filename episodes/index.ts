@@ -29,6 +29,7 @@ import uncle from './uncle.json';
 import hijack from './hijack.json';
 import birthday from './birthday.json';
 import marshmallow from './marshmallow.json';
+import grandma from './grandma.json';
 
 export const EPISODES: Episode[] = [
   ei as Episode,
@@ -46,4 +47,5 @@ export const EPISODES: Episode[] = [
   hijack as Episode,
   birthday as Episode,
   marshmallow as Episode,
+  grandma as Episode,
 ];
