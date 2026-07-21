@@ -1,0 +1,105 @@
+{
+  "id": "erode",
+  "title": "Mòn từng chút một",
+  "durationSec": 78,
+  "fps": 30,
+  "format": "narrative",
+  "themePreset": "library",
+
+  "voice": { "file": "erode-voice.m4a", "durationSec": 74.56 },
+  "bgm": { "file": "bgm/lofi-motivational.mp3", "volume": 0.07, "fadeSec": 1.5 },
+
+  "book": {
+    "title": "Trí Tuệ Cảm Xúc",
+    "author": "Daniel Goleman",
+    "year": 1995,
+    "pages": 384,
+    "genre": "Tâm lý học",
+    "rating": 4.7,
+    "cover": { "base": "#3d5a80", "accent": "#f5ead6", "motif": "💔" }
+  },
+  "thumbnail": {
+    "eyebrow": "Hôm nay nói về",
+    "hook": "KHÔNG CẦN ĐÁNH NHAU",
+    "subhook": "Mòn từng chút một, đủ gãy một hôn nhân.",
+    "badge": "SÁCH HAY · 75s"
+  },
+  "ctaText": "Follow để đọc nhanh 1 cuốn / ngày 📚",
+
+  "styleBible": {
+    "protagonist": "the story has two recurring subjects: a Vietnamese married couple in their mid-30s living in a Vietnamese apartment — the wife slim in a cream house-blouse, the husband in a plain earth-toned t-shirt or sweater — both appear together in nearly every scene; their features stay consistent across shots; the narrator is unseen (neighbor perspective)",
+    "style": "moody library-at-dusk illustration, deep navy and warm gold palette, painterly soft-focus grain, cinematic composition with clear negative space, subtle vignette, sense of quiet domestic tension",
+    "avoid": "no photorealism, no text/letters/logos in image, no 3D render, no harsh shadows, no cartoonish exaggeration, no melodramatic gestures"
+  },
+  "imageStyle": "moody library-at-dusk illustration, deep navy and warm gold palette, painterly grain, 9:16 vertical, no text",
+
+  "captions": [
+    { "from": 0.07,  "to": 3.28,  "text": "Cô hàng xóm nhà tôi với chồng, hồi mới cưới quấn nhau lắm.", "emphasis": "quấn nhau",       "size": "subtitle", "align": "top" },
+    { "from": 3.82,  "to": 7.25,  "text": "Vài năm sau, cách cổ nói với chồng đổi khác.",              "emphasis": "đổi khác",         "size": "subtitle", "align": "bottom" },
+
+    { "from": 7.54,  "to": 12.60, "text": "Chồng rửa chén, cổ buông một câu: \"Rửa cái chén cũng không sạch...\"", "emphasis": "không sạch", "size": "subtitle", "align": "top" },
+    { "from": 12.70, "to": 15.20, "text": "\"...đúng là chẳng được tích sự gì.\"",                     "emphasis": "chẳng được",       "size": "heading",  "align": "bottom" },
+    { "from": 15.30, "to": 18.80, "text": "Chồng sửa vòi nước, cổ bĩu môi: \"Thôi để đó, đàn ông gì mà vụng.\"", "emphasis": "đàn ông gì", "size": "subtitle", "align": "top" },
+    { "from": 18.90, "to": 20.77, "text": "Không phải cãi nhau to tiếng.",                              "emphasis": "không cãi to",     "size": "heading",  "align": "bottom" },
+
+    { "from": 20.84, "to": 23.69, "text": "Chỉ là mấy câu đá qua đá lại, mỗi ngày một chút.",           "emphasis": "mỗi ngày một chút", "size": "subtitle", "align": "top" },
+
+    { "from": 24.06, "to": 25.89, "text": "Anh chồng ít nói hẳn.",                                       "emphasis": "ít nói",          "size": "heading",  "align": "bottom" },
+    { "from": 25.98, "to": 27.77, "text": "Về nhà là cắm mặt vô điện thoại.",                            "emphasis": "cắm mặt",         "size": "heading",  "align": "top" },
+    { "from": 27.89, "to": 30.61, "text": "Ngồi chung mâm mà như hai người dưng.",                       "emphasis": "hai người dưng",  "size": "subtitle", "align": "bottom" },
+
+    { "from": 30.85, "to": 32.57, "text": "Năm rồi họ ly hôn.",                                          "emphasis": "ly hôn",           "size": "title",    "align": "center" },
+    { "from": 32.75, "to": 35.69, "text": "Ai cũng ngạc nhiên, có thấy đánh nhau bao giờ đâu.",         "emphasis": "ngạc nhiên",       "size": "subtitle", "align": "top" },
+
+    { "from": 36.57, "to": 37.85, "text": "Ừ, đâu cần đánh nhau.",                                       "emphasis": "đâu cần",          "size": "title",    "align": "center" },
+    { "from": 38.13, "to": 40.01, "text": "Mòn từng chút một cũng đủ gãy.",                              "emphasis": "mòn từng chút",   "size": "heading",  "align": "bottom" },
+
+    { "from": 40.77, "to": 44.49, "text": "Trong Trí Tuệ Cảm Xúc, Goleman có một ý làm tôi nhớ hoài.",   "emphasis": "Trí Tuệ Cảm Xúc",  "size": "subtitle", "align": "top" },
+    { "from": 44.91, "to": 48.41, "text": "Giết chết một cuộc hôn nhân thường không phải cãi lớn.",     "emphasis": "không phải cãi",   "size": "subtitle", "align": "bottom" },
+    { "from": 48.61, "to": 53.37, "text": "Mà là chê bai, khinh thường, lặp lại trong câu nói nhỏ hằng ngày.", "emphasis": "khinh thường", "size": "subtitle", "align": "top" },
+
+    { "from": 53.66, "to": 56.37, "text": "Nói \"cái chén này chưa sạch\" là một chuyện.",              "emphasis": "chưa sạch",        "size": "heading",  "align": "top" },
+    { "from": 56.49, "to": 59.61, "text": "Nói \"anh đúng là đồ vô dụng\" là chuyện khác hẳn.",         "emphasis": "đồ vô dụng",       "size": "heading",  "align": "bottom" },
+
+    { "from": 59.79, "to": 61.65, "text": "Một câu nói về việc.",                                        "emphasis": "về việc",          "size": "title",    "align": "center" },
+    { "from": 61.72, "to": 63.57, "text": "Một câu đạp thẳng vào con người ta.",                         "emphasis": "con người ta",    "size": "heading",  "align": "center" },
+
+    { "from": 64.39, "to": 68.33, "text": "Nếu bạn với người thương hay nói nặng nhau mà không để ý...", "emphasis": "nói nặng",         "size": "subtitle", "align": "top" },
+    { "from": 68.37, "to": 69.69, "text": "thử đọc Trí Tuệ Cảm Xúc.",                                    "emphasis": "thử đọc",          "size": "heading",  "align": "bottom" },
+
+    { "from": 70.22, "to": 72.25, "text": "Nhiều khi cứu một mối quan hệ...",                             "emphasis": "cứu",              "size": "heading",  "align": "top" },
+    { "from": 72.29, "to": 74.57, "text": "bắt đầu từ việc đổi cách mình buông một câu.",                "emphasis": "đổi cách",         "size": "subtitle", "align": "bottom" }
+  ],
+
+  "scenes": [
+    { "type": "imageScene", "from": 0.00,  "to": 4.00,  "prompt": "A Vietnamese couple in their mid-30s laughing softly at their small home dining table on a warm dusk, the wife in a cream house blouse and the husband in a plain earth-toned sweater, gentle warm gold lamp light against deep navy home shadows, painterly grain, memory of tenderness in the first years of marriage", "kenBurns": "zoomIn",   "overlay": "dark", "seed": 1300 },
+    { "type": "imageScene", "from": 4.00,  "to": 15.30, "prompt": "The same Vietnamese husband in his mid-30s standing at a small kitchen sink washing dishes, shoulders slightly slumped, while his wife walks past behind him with a folded towel casting a cool sideways glance, both in Vietnamese apartment kitchen, warm gold sink light against deep navy interior shadows, painterly grain, moment of quiet contempt",  "kenBurns": "panRight", "overlay": "dark", "seed": 1310 },
+    { "type": "imageScene", "from": 15.30, "to": 24.00, "prompt": "The same Vietnamese husband kneeling to fix a leaking bathroom pipe with a wrench, his wife standing in the doorway with arms folded and a small dismissive frown, warm gold light spilling from the doorway across the tile floor, deep navy shadow around, painterly grain, small daily put-down",                                                                    "kenBurns": "zoomOut",  "overlay": "dark", "seed": 1320 },
+    { "type": "imageScene", "from": 24.00, "to": 30.80, "prompt": "The same Vietnamese husband sitting alone on a small sofa in the living room at night, face lit only by his phone screen, the wife visible in soft focus in the background kitchen not looking at him, warm gold phone glow and cold navy room shadows around, painterly grain, the retreat into silence",                                                              "kenBurns": "panLeft",  "overlay": "dark", "seed": 1330 },
+    { "type": "imageScene", "from": 30.80, "to": 40.30, "prompt": "The same Vietnamese couple sitting at a rectangular dinner table with two full plates in front of them, both eating in silence with their eyes on the food, an empty chair between them, warm gold pendant light against deep navy dining room shadows, painterly grain, married strangers",                                                                            "kenBurns": "zoomOut",  "overlay": "dark", "seed": 1340 },
+    { "type": "book",       "from": 40.30, "to": 53.60 },
+    { "type": "imageScene", "from": 53.60, "to": 63.60, "prompt": "Split-composition metaphor: on one side a soap-covered rice bowl in a hand under running water (about the work), on the other side a person figure with head bowed slightly (about the self), a subtle warm gold thread separating them, deep navy background, painterly grain, the difference between critique and contempt",                                        "kenBurns": "zoomIn",   "overlay": "dark", "seed": 1350 },
+    { "type": "imageScene", "from": 63.60, "to": 70.20, "prompt": "The same Vietnamese wife alone at the same dinner table late at night after her husband has gone to bed, hands wrapped around a lukewarm mug, empty seat across from her, warm gold pendant light against deep navy silence around, painterly grain, the moment of realizing what has been said",                                                                       "kenBurns": "panRight", "overlay": "dark", "seed": 1360 },
+    { "type": "imageScene", "from": 70.20, "to": 78.00, "prompt": "The same Vietnamese couple sitting side by side at the dinner table again a different evening — she is speaking with a small softening in her face, he is looking up with tentative hope, warm gold pendant light against deep navy home shadows, painterly grain, first attempt at changing how a sentence lands",                                                    "kenBurns": "zoomIn",   "overlay": "light", "seed": 1370 },
+    {
+      "type": "payoff",
+      "from": 64.39,
+      "to": 78.00,
+      "ctaAt": 74.60,
+      "leftCard":  { "label": "VÔ DỤNG",       "verb": "Đạp vào người",     "icon": "💔", "color": "negative" },
+      "rightCard": { "label": "CHÉN CHƯA SẠCH", "verb": "Nói về việc",       "icon": "🍽", "color": "primary"  }
+    }
+  ],
+
+  "sfx": [
+    { "at": 0.00,  "sound": "pageTurn", "volume": 0.22 },
+    { "at": 4.00,  "sound": "whoosh",   "volume": 0.18 },
+    { "at": 15.30, "sound": "uiSwitch", "volume": 0.18 },
+    { "at": 24.00, "sound": "ding",     "volume": 0.16 },
+    { "at": 30.80, "sound": "whoosh",   "volume": 0.16 },
+    { "at": 40.30, "sound": "pageTurn", "volume": 0.28 },
+    { "at": 53.60, "sound": "ding",     "volume": 0.20 },
+    { "at": 63.60, "sound": "uiSwitch", "volume": 0.16 },
+    { "at": 74.60, "sound": "pageTurn", "volume": 0.28 }
+  ]
+}
